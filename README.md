@@ -1,2 +1,2 @@
 # siz-gomel.by
-gatsby, drupal
+gatsby, google sheets
