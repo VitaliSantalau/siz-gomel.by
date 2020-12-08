@@ -1,8 +1,13 @@
 
 exports.createPages = ({ actions: { createPage } }) => {
   createPage({
-    path: "/no-data/",
-    component: require.resolve("./src/templates/no-data.js"),
-  });
-};
+      path: "/sample/",
+      component: require.resolve("./src/templates/sample.js"),
+      context: {
+        name: "Ботинки",
+        price: "25.8",
+        content: "<h1>Ботинки</h1>",
+      }
+  })
+}
 
