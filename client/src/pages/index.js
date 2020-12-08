@@ -1,6 +1,12 @@
-import React from "react"
+import React from 'react';
+
+import MainLayout from "../components/mainLayout";
 
 export default function indexPage() {
   
-  return <div>This is data from Google Sheets :)</div>
+  return (
+    <MainLayout>
+      <main>ddd</main>
+    </MainLayout>
+  )
 };

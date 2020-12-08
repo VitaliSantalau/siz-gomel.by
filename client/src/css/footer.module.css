@@ -1,0 +1,73 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstLevel {
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  color: #f5f8f9;
+  background-color: #275fb8;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts>* {
+  margin-right: 5rem;
+}
+
+.addresses {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.address {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.emailAddress:hover {
+  color: #FF3333;
+}
+
+.timeTable {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeTable>* {
+  margin-bottom: .5em;
+}
+
+.phones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.phone {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 1em .5em 0;
+}
+
+.secondtLevel {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1em;
+}
+
+.secondtLevel>* {
+  margin-right: .5em;
+}
+
+.nameGloboBel {
+  margin-right: 1em;
+}
