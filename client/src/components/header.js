@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 import style from "../css/header.module.css";
+import PageNav from "./pageNav";
 
 export default function Header() {
   return (
@@ -46,12 +47,8 @@ export default function Header() {
             <a className={style.phone} href="tel:375295774640">+375 (29) 577-46-40</a>    
           </div>
         </div>
+        <PageNav />
       </div>
-      <nav className={style.secondLevel}>
-        <Link to="/" activeClassName={style.active}>КАТАЛОГ</Link>
-        <Link to="/about/" activeClassName={style.active}>О КОМПАНИИ</Link>
-        <Link to="/delivery/" activeClassName={style.active}>ОПЛАТА И ДОСТАВКА</Link>
-      </nav>
     </header>
   )
 };

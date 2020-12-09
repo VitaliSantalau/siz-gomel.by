@@ -47,6 +47,7 @@ header {
 
 .contacts {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .contacts>* {
@@ -88,30 +89,4 @@ header {
   font-size: 1.2em;
   font-weight: 500;
   margin: 0 1em .5em 0;
-}
-
-.secondLevel {
-  width: 100%;
-  height: 2.8em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.1em;
-  font-weight: 500;
-  color: #f5f8f9;
-  background-color: #275fb8;
-}
-
-.secondLevel>* {
-  padding: .3rem 1rem;
-  margin-right: 4em;
-  border-radius: 1em;
-}
-
-.secondLevel>*:hover {
-  background-color: #FF3333;
-}
-
-.active {
-  background-color: #FF3333;
 }
