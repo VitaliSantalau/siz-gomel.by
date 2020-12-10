@@ -3,13 +3,16 @@ import { Link } from "gatsby";
 
 import style from "../css/header.module.css";
 import PageNav from "./pageNav";
+import { isModifier } from "typescript";
+
+import Globe from "../images/globe.png"
 
 export default function Header() {
   return (
     <header>
       <div className={style.firstLevel}>
         <Link to="/" className={style.logo}>
-          <img className={style.iconLogo} src={require("../images/globe.png")} alt="icon of the logo it is a globe" />
+          <img className={style.iconLogo} src={Globe} alt="this is the logo it is a globe" />
           <div className={style.textLogo}>
             <div className={style.siteName}>
               <div>gomel</div>
