@@ -3,9 +3,16 @@ import { Link } from "gatsby";
 
 import style from "../css/header.module.css";
 import PageNav from "./pageNav";
-import { isModifier } from "typescript";
-
 import Globe from "../images/globe.png"
+
+/*const deleteBefore = <div className={style.slogan}>
+  <div>ПРОДАЖА</div>
+  <div>РАБОЧЕЙ</div>
+  <div>ОБУВИ,</div>
+  <div>СПЕЦОДЕЖДЫ</div>
+  <div>И</div>
+  <div>СИЗ</div> 
+</div>*/
 
 export default function Header() {
   return (
@@ -20,14 +27,6 @@ export default function Header() {
               <div>siz</div> 
               <div>.</div>
               <div>by</div> 
-            </div>
-            <div className={style.slogan}>
-              <div>ПРОДАЖА</div>
-              <div>РАБОЧЕЙ</div>
-              <div>ОБУВИ,</div>
-              <div>СПЕЦОДЕЖДЫ</div>
-              <div>И</div>
-              <div>СИЗ</div> 
             </div>
           </div>
         </Link>

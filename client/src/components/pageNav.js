@@ -6,9 +6,10 @@ import style from "../css/pageNav.module.css";
 export default function PageNav() {
   return (
     <nav>
-      <Link to="/" activeClassName={style.active}>КАТАЛОГ</Link>
+      <Link to="/" activeClassName={style.active}>ГЛАВНАЯ</Link>
       <Link to="/about/" activeClassName={style.active}>О КОМПАНИИ</Link>
       <Link to="/delivery/" activeClassName={style.active}>ОПЛАТА И ДОСТАВКА</Link>
+      <Link to="/info/" activeClassName={style.active}>ИНФОРМАЦИЯ</Link>
     </nav>
   )
 };

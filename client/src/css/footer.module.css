@@ -2,22 +2,17 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.firstLevel {
-  width: 100%;
-  padding-top: 1rem;
-  padding-left: 5rem;
+  align-items: stretch;
+  padding: 1em;
   color: #f5f8f9;
   background-color: #275fb8;
 }
 
+
 .contacts {
   display: flex;
-}
-
-.contacts>* {
-  margin-right: 5rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .addresses {
@@ -28,7 +23,6 @@ footer {
 }
 
 .address {
-  font-size: 1.2em;
   margin-bottom: 1em;
 }
 
@@ -55,19 +49,4 @@ footer {
   font-size: 1.2em;
   font-weight: 500;
   margin: 0 1em .5em 0;
-}
-
-.secondtLevel {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding: 1em;
-}
-
-.secondtLevel>* {
-  margin-right: .5em;
-}
-
-.nameGloboBel {
-  margin-right: 1em;
 }
