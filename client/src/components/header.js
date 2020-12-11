@@ -49,8 +49,8 @@ export default function Header() {
             <a className={style.phone} href="tel:375295774640">+375 (29) 577-46-40</a>    
           </div>
         </div>
-        <PageNav />
       </div>
+      <PageNav />
     </header>
   )
 };

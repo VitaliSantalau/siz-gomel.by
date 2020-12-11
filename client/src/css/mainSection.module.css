@@ -1,0 +1,56 @@
+.mainSection {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainSection > h1 {
+  text-align: center;
+  margin: 1.5em;
+}
+
+.listGroup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ 
+}
+
+.group {
+  width: 22em;
+  height: 21em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+  margin-bottom: 2em;
+   
+}
+
+.group:hover {
+  border: 1px solid red;
+}
+
+.containerGroupImage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.groupImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.groupName {
+  height: 2em;
+}
+

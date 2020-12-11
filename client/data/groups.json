@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Рабочая обувь",
+    "slug": "work-shoes",
+      "description": "<p>Keep it simple with this vintage purple tee.</p>",
+      "price": "$10.00",
+      "image": "images/Бахилы.png"
+    },
+    {
+      "title": "Тапочки",
+      "slug": "slippers",
+      "description": "<p>Keep it simple with this vintage purple tee.</p>",
+      "price": "$15.00",
+      "image": "images/Тапочки.png"
+    }
+  
+  ]

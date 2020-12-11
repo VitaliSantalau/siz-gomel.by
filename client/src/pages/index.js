@@ -1,6 +1,7 @@
 import React from 'react';
 import MainLayout from "../components/mainLayout";
 import CatalogNav from '../components/catalogNav';
+import MainSection from '../components/mainSection';
 
 
 export default function indexPage() {
@@ -8,8 +9,8 @@ export default function indexPage() {
   return (
     <MainLayout>
       <main>
-        <p>dddddd</p>
-        <p>список группюп ююююююююю пюююююююю ппюююююююю</p>
+        <CatalogNav />
+        <MainSection />
       </main>
     </MainLayout>
   )

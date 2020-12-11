@@ -10,6 +10,8 @@ footer {
 
 
 .contacts {
+  width: 100%;
+  align-self: flex-start;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
