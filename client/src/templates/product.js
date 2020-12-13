@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import MainLayout from "../components/mainLayout"
-
+/*
 export const query = graphql`
   query($slug: String!) {
     productsJson(slug: { eq: $slug }) {
@@ -43,4 +43,4 @@ const Product = ({ data }) => {
   )
 }
 
-export default Product;
+export default Product;*/

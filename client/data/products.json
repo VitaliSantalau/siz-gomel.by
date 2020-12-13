@@ -1,17 +1,44 @@
 [
   {
-    "title": "Ботинки",
-    "slug": "shoes",
-    "description": "<p>Keep it simple with this vintage purple tee.</p>",
-    "price": "$10.00",
-    "image": "images/Бахилы.png"
+    "subgroupName": "Берцы",
+    "slug": "work-shoes-berts",
+    "listproducts": [
+      {
+        "name": "Берцы `Мастер`",
+        "slug": "work-shoes-berts-master",
+        "price": "10,00",
+        "description": "<p>Keep it simple with this vintage purple tee.</p>",    
+        "image": "images/work-shoes-berts-master.png",
+        "alt": "work shoes berts master"   
+      },
+      {
+        "name": "Берцы `Мастер` утепленные",
+        "slug": "work-shoes-berts-master-u",
+        "price": "15,00",
+        "description": "<p>Keep it simple with this vintage purple tee.</p>",    
+        "image": "images/work-shoes-berts-master.png",
+        "alt": "work shoes berts master"    
+      }
+    ]
   },
   {
-    "title": "Тапочки",
-    "slug": "slippers",
-    "description": "<p>Keep it simple with this vintage purple tee.</p>",
-    "price": "$15.00",
-    "image": "images/Тапочки.png"
+    "subgroupName": "Берцы",
+    "slug": "123",
+    "listproducts": [
+      {
+        "name": "Берцы `Мастер`",
+        "price": "10,00",
+        "description": "<p>Keep it simple with this vintage purple tee.</p>",    
+        "image": "images/work-shoes-berts-master.png",
+        "alt": "work shoes berts master"   
+      },
+      {
+        "name": "Берцы `Мастер` утепленные",
+        "price": "15,00",
+        "description": "<p>Keep it simple with this vintage purple tee.</p>",    
+        "image": "images/work-shoes-berts-master.png",
+        "alt": "work shoes berts master"    
+      }
+    ]
   }
-
 ]

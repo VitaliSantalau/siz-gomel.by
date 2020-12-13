@@ -6,40 +6,40 @@
 }
 
 .mainSection > h1 {
+  font-size: 1.6em;
   text-align: center;
-  margin: 1.5em;
+  margin: .5em .5em;
 }
 
-.listGroup {
+.listGroups {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 2em;
  
 }
 
 .group {
-  width: 22em;
-  height: 21em;
+  width: 14em;
+  height: 18em;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   padding: .5em;
   margin-bottom: 2em;
-   
 }
 
 .group:hover {
-  border: 1px solid red;
+  border: 1px solid;
 }
 
 .containerGroupImage {
   width: 100%;
-  height: 100%;
+  height: 77%;
   position: relative;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  /*padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
 
 .groupImage {
@@ -51,6 +51,18 @@
 }
 
 .groupName {
-  height: 2em;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.textMainPage {
+  width: 90%;
+}
+
+.textMainPage> * {
+  text-align: justify;
+  text-indent: 1.6em;
+  line-height: 1.4em;
+  margin-bottom: 1.6em;
 }
 

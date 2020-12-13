@@ -1,6 +1,13 @@
 exports.createPages = async ({ actions: { createPage }, graphql }) => {
   const results = await graphql(`
     {
+      allGroupsJson {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
       allProductsJson {
         edges {
           node {
@@ -8,16 +15,24 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
           }
         }
       }
-    }
-  `)
-
-  results.data.allProductsJson.edges.forEach(edge => {
-    const product = edge.node;
-
+    } 
+  `)  
+ 
+ 
+  results.data.allGroupsJson.edges.forEach(edge => {
     createPage({
-      path: `/${product.slug}/`,
-      component: require.resolve("./src/templates/product.js"),
-      context: {slug: product.slug},
+      path: `/${edge.node.slug}/`,
+      component: require.resolve("./src/templates/listsubgroups.js"),
+      context: {slug: edge.node.slug},
     })
   })
+
+  results.data.allProductsJson.edges.forEach(edge => {
+    createPage({
+      path: `/${edge.node.slug}/`,
+        component: require.resolve("./src/templates/listproducts.js"),
+        context: {slug: edge.node.slug} 
+    })
+  })
+    
 }

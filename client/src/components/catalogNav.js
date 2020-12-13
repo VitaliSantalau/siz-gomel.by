@@ -14,10 +14,10 @@ export default function CatalogNav() {
     <nav className={style.nav}>
       <h2 className={style.wordCATALOG}>КАТАЛОГ</h2>  
       <div className={style.containerGroupSubgroup}>
-        <div className={style.group}>
+        <Link to="/work-shoes/" className={style.group}>
           <img className={style.groupIcon} src={workShoesIcon} alt="work shoes icon" />
           <div className={style.groupText}>Рабочая обувь</div>
-        </div>
+        </Link>
         <div className={style.containerSubgroup}>
           <Link to="/work-shoes-berts/" className={style.subgroup} activeClassName={style.activeSubGroup}>Берцы</Link>
           <Link to="/work-shoes-boots/" className={style.subgroup} activeClassName={style.activeSubGroup}>Ботинки</Link>

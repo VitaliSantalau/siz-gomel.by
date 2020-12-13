@@ -1,17 +1,109 @@
 [
   {
-    "name": "Рабочая обувь",
+    "groupName": "Рабочая обувь",
     "slug": "work-shoes",
-      "description": "<p>Keep it simple with this vintage purple tee.</p>",
-      "price": "$10.00",
-      "image": "images/Бахилы.png"
-    },
-    {
-      "title": "Тапочки",
-      "slug": "slippers",
-      "description": "<p>Keep it simple with this vintage purple tee.</p>",
-      "price": "$15.00",
-      "image": "images/Тапочки.png"
-    }
-  
-  ]
+    "image": "images/work-shoes-boots-comfort.png",
+    "alt": "work shoes",
+    "subgroup": [ 
+      {
+        "subgroupName": "Берцы",
+        "slug": "work-shoes-berts",
+        "image": "images/work-shoes-berts-master.png",
+        "alt": "work shoes berts"
+      },
+      {
+        "subgroupName": "Ботинки",
+        "slug": "work-shoes-boots",
+        "image": "images/work-shoes-boots-comfort.png",
+        "alt": "work shoes boots"
+      },
+      {
+        "subgroupName": "Полуботинки",
+        "slug": "work-shoes-lowboots",
+        "image": "images/work-shoes-lowboots-comfort.png",
+        "alt": "work shoes low boots"
+      },
+      {
+        "subgroupName": "Сапоги",
+        "slug": "work-shoes-highboots",
+        "image": "images/work-shoes-highboots-master.png",
+        "alt": "work shoes highboots"
+      },
+      {
+        "subgroupName": "Резиновые сапоги",
+        "slug": "work-shoes-rubberboots",
+        "image": "images/work-shoes-rubberboots.png",
+        "alt": "work shoes rubber boots"
+      },
+      {
+        "subgroupName": "Тапочки",
+        "slug": "work-shoes-slippers",
+        "image": "images/work-shoes-slippers.png",
+        "alt": "work shoes slippers"
+      }
+    ]
+  },
+  {
+    "groupName": "Спецодежда",
+    "slug": "work-clothes",
+    "image": "images/work-clothes-winter-clothes-brigadir.png",
+    "alt": "work clothes",
+    "subgroup": 
+    [ 
+      {
+                 "subgroupName": "Берцы",
+                "slug": "work-shoes-berts",
+          "image": "images/work-shoes-boots-comfort.png",
+          "alt": "work shoes berts"
+          },
+          {
+            "subgroupName": "Берцы",
+           "slug": "work-shoes-berts",
+     "image": "images/work-shoes-boots-comfort.png",
+     "alt": "work shoes berts"
+     }
+    ]
+  },
+  {
+    "groupName": "Средства индивидуальной защиты",
+    "slug": "personal-protective-equipment",
+    "image": "images/personal-protective-equipment-head-protection-helmet.png",
+    "alt": "personal protective equipment",
+    "subgroup": 
+    [ 
+      {
+                 "subgroupName": "Берцы",
+                "slug": "work-shoes-berts",
+          "image": "images/work-shoes-boots-comfort.png",
+          "alt": "work shoes berts"
+          },
+          {
+            "subgroupName": "Берцы",
+           "slug": "work-shoes-berts",
+     "image": "images/work-shoes-boots-comfort.png",
+     "alt": "work shoes berts"
+     }
+    ]
+  },
+  {
+    "groupName": "Медицинские СИЗ",
+    "slug": "medical-protection",
+    "image": "images/medical-protection-shoe-covers.png",
+    "alt": "medical-protection",
+    "subgroup": 
+    [ 
+      {
+                 "subgroupName": "Берцы",
+                "slug": "work-shoes-berts",
+          "image": "images/work-shoes-boots-comfort.png",
+          "alt": "work shoes berts"
+          },
+          {
+            "subgroupName": "Берцы",
+           "slug": "work-shoes-berts",
+     "image": "images/work-shoes-boots-comfort.png",
+     "alt": "work shoes berts"
+     }
+    ]
+  }
+]

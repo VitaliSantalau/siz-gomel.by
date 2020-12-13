@@ -7,6 +7,7 @@
 
 .wordCATALOG {
   padding-left: 10%;
+  margin-bottom: 5%;
 }
 
 .containerGroupSubgroup {
@@ -30,7 +31,7 @@
 }
 
 .containerSubgroup {
-  display: none;
+  
 }
 
 .subgroup {
