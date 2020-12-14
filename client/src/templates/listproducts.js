@@ -12,6 +12,7 @@ export const query = graphql`
       subgroupName
       listproducts {
         name
+        slug
         image {
           childImageSharp {
             fluid(fit: COVER) {
@@ -19,20 +20,26 @@ export const query = graphql`
             }
           }
         }
+        alt
       }
     }
   }
 `
 
 const Listproducts = ({ data }) => {
-/*  const list = data.productsJson.listproducts.map(item => {
+  const listproducts = data.productsJson.listproducts.map(item => {
     return (
       <Link to={`/${item.slug}/`} className={style.group} activeClassName={style.activeGroup}>
-        
+        <div className={style.containerGroupImage}>
+          <Img className={style.groupImage}
+            fluid={item.image.childImageSharp.fluid}
+            alt={item.alt}
+          />
+        </div>
         <h2 className={style.groupName}>{item.name}</h2>
       </Link>
     )   
-  })*/
+  })
 
   return (
     <MainLayout>
@@ -41,7 +48,7 @@ const Listproducts = ({ data }) => {
         <div className={style.mainSection}>
           <h1>{data.productsJson.subgroupName}</h1>
           <div className={style.listGroups}>
-            
+            {listproducts}
           </div>
         </div>
       </main>

@@ -4,7 +4,8 @@
     "slug": "work-shoes",
     "image": "images/work-shoes-boots-comfort.png",
     "alt": "work shoes",
-    "subgroup": [ 
+    "subgroup": 
+    [ 
       {
         "subgroupName": "Берцы",
         "slug": "work-shoes-berts",
@@ -46,22 +47,46 @@
   {
     "groupName": "Спецодежда",
     "slug": "work-clothes",
-    "image": "images/work-clothes-winter-clothes-brigadir.png",
+    "image": "images/work-clothes-winter-clothes-jacket-insulated-brigadir.png",
     "alt": "work clothes",
     "subgroup": 
     [ 
       {
-                 "subgroupName": "Берцы",
-                "slug": "work-shoes-berts",
-          "image": "images/work-shoes-boots-comfort.png",
-          "alt": "work shoes berts"
-          },
-          {
-            "subgroupName": "Берцы",
-           "slug": "work-shoes-berts",
-     "image": "images/work-shoes-boots-comfort.png",
-     "alt": "work shoes berts"
-     }
+        "subgroupName": "Зимняя одежда",
+        "slug": "work-clothes-winter",
+        "image": "images/work-clothes-winter-clothes-jacket-insulated-brigadir.png",
+        "alt": "work clothes winter"
+      },
+      {
+        "subgroupName": "Летняя одежда",
+        "slug": "work-clothes-summer",
+        "image": "images/work-clothes-summer-clothes-costume-brend1.png",
+        "alt": "work clothes summer"
+      },
+      {
+        "subgroupName": "Влагозащитная одежда",
+        "slug": "work-clothes-waterproof",
+        "image": "images/work-clothes-waterproof-clothes-cloak-orange.png",
+        "alt": "work clothes waterproof"
+      },
+      {
+        "subgroupName": "Одежда от кислот",
+        "slug": "work-clothes-waterproof",
+        "image": "images/work-clothes-acidproof-clothes-costume.png",
+        "alt": "work clothes acidproof"
+      },
+      {
+        "subgroupName": "Одежда сварщика",
+        "slug": "work-clothes-welder",
+        "image": "images/work-clothes-welder-clothes-costume-tarpaulin.png",
+        "alt": "work clothes welder"
+      },
+      {
+        "subgroupName": "Жилеты сигнальные",
+        "slug": "work-clothes-vests",
+        "image": "images/work-clothes-vests-signal-4.png",
+        "alt": "work clothes vests signal"
+      }
     ]
   },
   {
@@ -72,17 +97,41 @@
     "subgroup": 
     [ 
       {
-                 "subgroupName": "Берцы",
-                "slug": "work-shoes-berts",
-          "image": "images/work-shoes-boots-comfort.png",
-          "alt": "work shoes berts"
-          },
-          {
-            "subgroupName": "Берцы",
-           "slug": "work-shoes-berts",
-     "image": "images/work-shoes-boots-comfort.png",
-     "alt": "work shoes berts"
-     }
+        "subgroupName": "Защита глаз",
+        "slug": "personal-protective-equipment-eye-protection",
+        "image": "images/personal-protective-equipment-eye-protection-glasses.png",
+        "alt": "personal protective equipment eye protection"
+      },
+      {
+        "subgroupName": "Защита головы",
+        "slug": "personal-protective-equipment-head-protection",
+        "image": "images/personal-protective-equipment-head-protection-helmet.png",
+        "alt": "personal protective equipment head protection"
+      },
+      {
+        "subgroupName": "Защита органов дыхания",
+        "slug": "personal-protective-equipment-respiratory-protection",
+        "image": "images/personal-protective-equipment-respiratory-protection-istok400.png",
+        "alt": "personal protective equipment respiratory protection"
+      },
+      {
+        "subgroupName": "Защита органов слуха",
+        "slug": "personal-protective-equipment-hearing-protection",
+        "image": "images/personal-protective-equipment-hearing-protection-earphones-with-mount.png",
+        "alt": "personal protective equipment hearing protection"
+      },
+      {
+        "subgroupName": "Защита при высотных работах",
+        "slug": "personal-protective-equipment-height-work-protection",
+        "image": "images/personal-protective-equipment-height-work-protection-strop.png",
+        "alt": "personal protective equipment hearing protection"
+      },
+      {
+        "subgroupName": "Защита рук",
+        "slug": "personal-protective-equipment-hand-protection",
+        "image": "images/personal-protective-equipment-hand-protection-gloves-cotton-pvc.png",
+        "alt": "personal protective equipment hand protection"
+      }
     ]
   },
   {
@@ -93,17 +142,23 @@
     "subgroup": 
     [ 
       {
-                 "subgroupName": "Берцы",
-                "slug": "work-shoes-berts",
-          "image": "images/work-shoes-boots-comfort.png",
-          "alt": "work shoes berts"
-          },
-          {
-            "subgroupName": "Берцы",
-           "slug": "work-shoes-berts",
-     "image": "images/work-shoes-boots-comfort.png",
-     "alt": "work shoes berts"
-     }
+        "subgroupName": "Щитки",
+        "slug": "medical-protection-shields",
+        "image": "images/medical-protection-shield.png",
+        "alt": "medical-protection shields"
+      },
+      {
+        "subgroupName": "Бахилы",
+        "slug": "medical-protection-shoe-covers",
+        "image": "images/medical-protection-shoe-covers.png",
+        "alt": "medical-protection shields"
+      },
+      {
+        "subgroupName": "Маски",
+        "slug": "medical-protection",
+        "image": "images/medical-protection-mask-istokFFP.png",
+        "alt": "medical-protection masks"
+      }
     ]
   }
 ]

@@ -1,46 +1,43 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import style from "../css/mainSection.module.css"
 
 import MainLayout from "../components/mainLayout"
-/*
+import CatalogNav from "../components/catalogNav"
+
 export const query = graphql`
   query($slug: String!) {
-    productsJson(slug: { eq: $slug }) {
-      title
-      description
-      price
+    productJson(slug: { eq: $slug }) {
+      name
       image {
         childImageSharp {
-          fluid(maxWidth: 800, quality: 70) {
+          fluid(fit: COVER) {
             ...GatsbyImageSharpFluid
           }
         }
       }
+      alt
     }
   }
 `
 
 const Product = ({ data }) => {
-  const product = data.productsJson;
+  const product = data.productJson
   return (
     <MainLayout>
       <main>
-        {product.title}
-        {product.price}
-        <div dangerouslySetInnerHTML={{ __html: product.description }} />
-        <div style={{width: "30%", height: "20%"}}>
-        <Img
-        fluid={product.image.childImageSharp.fluid}
-        alt={product.title}
-      />
+      <CatalogNav />
+        <div className={style.containerGroupImage}>
+          <Img className={style.groupImage}
+            fluid={product.image.childImageSharp.fluid}
+            alt={product.alt}
+          />
         </div>
-      
-      
-        
+        <h2 className={style.groupName}>{product.name}</h2>
       </main>
     </MainLayout>
   )
 }
 
-export default Product;*/
+export default Product;
