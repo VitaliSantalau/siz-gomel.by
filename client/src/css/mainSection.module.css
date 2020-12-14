@@ -18,7 +18,6 @@
   /*justify-content: space-evenly;*/
   flex-wrap: wrap;
   margin-bottom: 2em;
- 
 }
 
 .group {
@@ -29,6 +28,8 @@
   align-items: center;
   padding: .5em;
   margin: 1em;
+  border: 1px solid grey;
+  border-radius: .5em;
 }
 
 .group:hover {
@@ -53,6 +54,83 @@
 .groupName {
   font-size: 1.2em;
   text-align: center;
+}
+
+.subgroup {
+  width: 14em;
+  height: 22em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5em;
+  margin: 1em;
+  border: 1px solid grey;
+  border-radius: .5em;
+}
+
+.subgroup:hover {
+  border: 1px solid;
+}
+
+.containerSubGroupImage {
+  width: 100%;
+  height: 70%;
+  position: relative;
+  /*padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.subgroupImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.containerSubGroupNamePrice {
+  align-self: stretch;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subgroupName {
+  font-size: 1em;
+  text-align: center;
+}
+
+.containerPriceDetails {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.containerPriceNds {
+  display: flex;
+  align-items: flex-end;
+}
+
+.subgroupPrice {
+  align-self: flex-start;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.nds {
+  font-size: .8em;
+}
+
+.details {
+  display: none;
+  font-size: .8em;
+  color: #FF3333;
+}
+
+.subgroup:hover>.containerSubGroupNamePrice>.containerPriceDetails>.details {
+  display: block;
 }
 
 .textMainPage {

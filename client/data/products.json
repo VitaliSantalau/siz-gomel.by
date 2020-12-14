@@ -6,18 +6,16 @@
       {
         "name": "Берцы \"Мастер\"",
         "slug": "work-shoes-berts-master",
-        "price": "10,00",
-        "description": "<p>Keep it simple with this vintage purple tee.</p>",    
+        "price": "29,00",
         "image": "images/work-shoes-berts-master.png",
         "alt": "work shoes berts master"   
       },
       {
         "name": "Берцы \"Мастер\" утепленные",
-        "slug": "work-shoes-berts-master-u",
-        "price": "15,00",
-        "description": "<p>Keep it simple with this vintage purple tee.</p>",    
+        "slug": "work-shoes-berts-master-insulated",
+        "price": "35,40", 
         "image": "images/work-shoes-berts-master.png",
-        "alt": "work shoes berts master"    
+        "alt": "work shoes berts master insulated"    
       }
     ]
   },
@@ -26,21 +24,34 @@
     "slug": "work-shoes-boots",
     "listproducts": [
       {
-        "name": "хуйня",
-        "slug": "555",
-        "price": "10,00",
-        "description": "<p>Keep it simple with this vintage purple tee.</p>",    
-        "image": "images/work-shoes-berts-master.png",
-        "alt": "work shoes berts master"   
+        "name": "Ботинки \"Комфорт\"",
+        "slug": "work-shoes-boots-komfort",
+        "price": "29,00", 
+        "image": "images/work-shoes-boots-comfort.png",
+        "alt": "work shoes boots comfort"    
       },
       {
-        "name": "херня",
-        "slug": "666",
-        "price": "15,00",
-        "description": "<p>Keep it simple with this vintage purple tee.</p>",    
-        "image": "images/work-shoes-berts-master.png",
-        "alt": "work shoes berts master"    
+        "name": "Ботинки \"Комфорт\" утепленные",
+        "slug": "work-shoes-boots-komfort-insulated",
+        "price": "37,40", 
+        "image": "images/work-shoes-boots-comfort-insulated.png",
+        "alt": "work shoes boots comfort insulated"    
+      },
+      {
+        "name": "Ботинки \"Комфорт\" с металлическим подноском",
+        "slug": "work-shoes-boots-komfort-metal-toe",
+        "price": "33,90", 
+        "image": "images/work-shoes-boots-comfort.png",
+        "alt": "work shoes boots comfort with metal toe"    
+      },
+      {
+        "name": "Ботинки \"Комфорт\" утепленные с металлическим подноском",
+        "slug": "work-shoes-boots-komfort-insulated-metal-toe",
+        "price": "41,20", 
+        "image": "images/work-shoes-boots-comfort-insulated.png",
+        "alt": "work shoes boots comfort insulated  with metal toe"    
       }
+
     ]
   }
 ]
