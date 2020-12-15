@@ -3,6 +3,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 import style from "../css/mainSection.module.css"
+import Bestseller from "./bestseller"
+import NewProducts from "./newProducts"
 
 
 export default function MainSection() {
@@ -49,6 +51,18 @@ export default function MainSection() {
       <div className={style.listGroups}>
         {listGroups}
       </div>
+      <section className={style.hit}>
+        <h3>
+          Хит продаж
+        </h3>
+        <Bestseller />
+      </section>
+      <section className={style.newProducts}>
+        <h3>
+          Новинки
+        </h3>
+        <NewProducts />
+      </section>
       <section className={style.textMainPage}>
         <div>
           <p><strong>Компания ООО “Глобо-Бел” предлагает широкий выбор спецодежды, спецобуви, средств защиты головы и рук, органов дыхания, падения с высоты.</strong></p>

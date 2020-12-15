@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Плащ желтый влагозащитный со светоотражающими полосами",
+    "slug": "work-clothes-waterproof-clothes-cloak-yellow",
+    "price": "20.50", 
+    "image": "images/work-clothes-waterproof-clothes-cloak-yellow.png",
+    "alt": "work clothes waterproof clothes cloak yellow"    
+  },
+  {
+    "name": "Бейсболка",
+    "slug": "personal-protective-equipment-head-protection-baseball-cap",
+    "price": "2.70", 
+    "image": "images/personal-protective-equipment-head-protection-baseball-cap.png",
+    "alt": "personal protective equipment head protection baseball cap"    
+  }
+]

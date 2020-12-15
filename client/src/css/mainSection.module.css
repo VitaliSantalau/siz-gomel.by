@@ -11,6 +11,15 @@
   margin: .5em .5em;
 }
 
+.hit, .newProducts{
+  width: 100%;
+  border-top: 1px solid;
+}
+
+.hit > h3, .newProducts > h3 {
+  margin: .5em;
+}
+
 .listGroups {
   width: 100%;
   display: flex;
