@@ -21,9 +21,9 @@ export default function CatalogNav() {
         <div className={style.containerSubgroup}>
           <Link to="/work-shoes-berts/" className={style.subgroup} activeClassName={style.activeSubGroup}>Берцы</Link>
           <Link to="/work-shoes-boots/" className={style.subgroup} activeClassName={style.activeSubGroup}>Ботинки</Link>
-          <Link to="/work-shoes-low-boots/" className={style.subgroup} activeClassName={style.activeSubGroup}>Полуботинки</Link>
-          <Link to="/work-shoes-high-boots/"className={style.subgroup} activeClassName={style.activeSubGroup}>Сапоги</Link>
-          <Link to="/work-shoes-rubber-high-boots/" className={style.subgroup} activeClassName={style.activeSubGroup}>Резиновые сапоги</Link>
+          <Link to="/work-shoes-lowboots/" className={style.subgroup} activeClassName={style.activeSubGroup}>Полуботинки</Link>
+          <Link to="/work-shoes-highboots/"className={style.subgroup} activeClassName={style.activeSubGroup}>Сапоги</Link>
+          <Link to="/work-shoes-rubberboots/" className={style.subgroup} activeClassName={style.activeSubGroup}>Резиновые сапоги</Link>
           <Link to="/work-shoes-slippers/" className={style.subgroup} activeClassName={style.activeSubGroup}>Тапочки</Link>
         </div>
       </div>
@@ -33,12 +33,12 @@ export default function CatalogNav() {
           <div className={style.groupText}>Спецодежда</div>
         </Link>
         <div className={style.containerSubgroup}>
-          <Link to="/work-clothes-winter-clothes" className={style.subgroup} activeClassName={style.activeSubGroup}>Зимняя одежда</Link>
-          <Link to="/work-clothes-summer-clothes" className={style.subgroup} activeClassName={style.activeSubGroup}>Летняя одежда</Link>
-          <Link to="/work-clothes-waterproof-clothes" className={style.subgroup} activeClassName={style.activeSubGroup}>Влагозащитная одежда</Link>
-          <Link to="/work-clothes-acid-clothes" className={style.subgroup} activeClassName={style.activeSubGroup}>Одежда от кислот</Link>
-          <Link to="/work-clothes-welding-clothes" className={style.subgroup} activeClassName={style.activeSubGroup}>Одежда сварщика</Link>
-          <Link to="/work-clothes-signal-vest" className={style.subgroup} activeClassName={style.activeSubGroup}>Жилеты сигнальные</Link>
+          <Link to="/work-clothes-winter/" className={style.subgroup} activeClassName={style.activeSubGroup}>Зимняя одежда</Link>
+          <Link to="/work-clothes-summer/" className={style.subgroup} activeClassName={style.activeSubGroup}>Летняя одежда</Link>
+          <Link to="/work-clothes-waterproof/" className={style.subgroup} activeClassName={style.activeSubGroup}>Влагозащитная одежда</Link>
+          <Link to="/work-clothes-acidproof/" className={style.subgroup} activeClassName={style.activeSubGroup}>Одежда от кислот</Link>
+          <Link to="/work-clothes-welder/" className={style.subgroup} activeClassName={style.activeSubGroup}>Одежда сварщика</Link>
+          <Link to="/work-clothes-vests/" className={style.subgroup} activeClassName={style.activeSubGroup}>Жилеты сигнальные</Link>
         </div>
       </div>
       <div className={style.containerGroupSubgroup}>

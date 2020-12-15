@@ -48,3 +48,7 @@
 .subgroup:hover {
   color: #FF3333;
 }
+
+.activeSubGroup {
+  color: #FF3333;
+}

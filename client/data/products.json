@@ -2,18 +2,19 @@
   {
     "subgroupName": "Берцы",
     "slug": "work-shoes-berts",
-    "listproducts": [
+    "listproducts": 
+    [
       {
         "name": "Берцы \"Мастер\"",
         "slug": "work-shoes-berts-master",
-        "price": "29,00",
+        "price": "29.00",
         "image": "images/work-shoes-berts-master.png",
         "alt": "work shoes berts master"   
       },
       {
         "name": "Берцы \"Мастер\" утепленные",
         "slug": "work-shoes-berts-master-insulated",
-        "price": "35,40", 
+        "price": "35.40", 
         "image": "images/work-shoes-berts-master.png",
         "alt": "work shoes berts master insulated"    
       }
@@ -22,36 +23,554 @@
   {
     "subgroupName": "Ботинки",
     "slug": "work-shoes-boots",
-    "listproducts": [
+    "listproducts": 
+    [
       {
         "name": "Ботинки \"Комфорт\"",
         "slug": "work-shoes-boots-komfort",
-        "price": "29,00", 
+        "price": "29.00", 
         "image": "images/work-shoes-boots-comfort.png",
         "alt": "work shoes boots comfort"    
       },
       {
         "name": "Ботинки \"Комфорт\" утепленные",
         "slug": "work-shoes-boots-komfort-insulated",
-        "price": "37,40", 
+        "price": "37.40", 
         "image": "images/work-shoes-boots-comfort-insulated.png",
         "alt": "work shoes boots comfort insulated"    
       },
       {
         "name": "Ботинки \"Комфорт\" с металлическим подноском",
         "slug": "work-shoes-boots-komfort-metal-toe",
-        "price": "33,90", 
+        "price": "33.90", 
         "image": "images/work-shoes-boots-comfort.png",
         "alt": "work shoes boots comfort with metal toe"    
       },
       {
         "name": "Ботинки \"Комфорт\" утепленные с металлическим подноском",
         "slug": "work-shoes-boots-komfort-insulated-metal-toe",
-        "price": "41,20", 
+        "price": "41.20", 
         "image": "images/work-shoes-boots-comfort-insulated.png",
         "alt": "work shoes boots comfort insulated  with metal toe"    
+      },
+      {
+        "name": "Ботинки \"Мастер\"",
+        "slug": "work-shoes-boots-master",
+        "price": "24.60", 
+        "image": "images/work-shoes-boots-master.png",
+        "alt": "work shoes boots master"    
+      },
+      {
+        "name": "Ботинки \"Мастер\" утепленные",
+        "slug": "work-shoes-boots-master-insulated",
+        "price": "25.40", 
+        "image": "images/work-shoes-boots-master-insulated.png",
+        "alt": "work shoes boots master insulated"    
+      },
+      {
+        "name": "Ботинки \"Мастер\" с металлическим подноском",
+        "slug": "work-shoes-boots-master-metal-toe",
+        "price": "25.30", 
+        "image": "images/work-shoes-boots-master.png",
+        "alt": "work shoes boots master with metal toe"    
+      },
+      {
+        "name": "Ботинки \"Мастер\" утепленные с металлическим подноском",
+        "slug": "work-shoes-boots-master-insulated-metal-toe",
+        "price": "31.40", 
+        "image": "images/work-shoes-boots-master-insulated.png",
+        "alt": "work shoes boots master insulated  with metal toe"    
+      },
+      {
+        "name": "Ботинки \"Профи\"",
+        "slug": "work-shoes-boots-profi",
+        "price": "25.40", 
+        "image": "images/work-shoes-boots-profi.png",
+        "alt": "work shoes boots profi"    
+      },
+      {
+        "name": "Ботинки \"Профи\" утепленные",
+        "slug": "work-shoes-boots-profi-insulated",
+        "price": "27.00", 
+        "image": "images/work-shoes-boots-profi-insulated.png",
+        "alt": "work shoes boots profi insulated"    
+      },
+      {
+        "name": "Ботинки \"Профи\" с металлическим подноском",
+        "slug": "work-shoes-boots-profi-metal-toe",
+        "price": "26.60", 
+        "image": "images/work-shoes-boots-profi.png",
+        "alt": "work shoes boots profi with metal toe"    
+      },
+      {
+        "name": "Ботинки \"Профи\" утепленные с металлическим подноском",
+        "slug": "work-shoes-boots-profi-insulated-metal-toe",
+        "price": "33.70", 
+        "image": "images/work-shoes-boots-profi-insulated.png",
+        "alt": "work shoes boots profi insulated  with metal toe"    
       }
-
+    ]
+  },
+  {
+    "subgroupName": "Полуботинки",
+    "slug": "work-shoes-lowboots",   
+    "listproducts": 
+    [
+      {
+        "name": "Полуботинки \"Комфорт\"",
+        "slug": "work-shoes-lowboots-komfort",
+        "price": "28.20", 
+        "image": "images/work-shoes-lowboots-comfort.png",
+        "alt": "work shoes lowboots comfort"    
+      },
+      {
+        "name": "Полуботинки \"Комфорт\" с металлическим подноском",
+        "slug": "work-shoes-lowboots-komfort-metal-toe",
+        "price": "29.90", 
+        "image": "images/work-shoes-lowboots-comfort.png",
+        "alt": "work shoes lowboots comfort with metal toe"    
+      },
+      {
+        "name": "Полуботинки \"Мастер\"",
+        "slug": "work-shoes-lowboots-master",
+        "price": "23.30", 
+        "image": "images/work-shoes-lowboots-master.png",
+        "alt": "work shoes lowboots master"    
+      },
+      {
+        "name": "Полуботинки \"Мастер\" с металлическим подноском",
+        "slug": "work-shoes-lowboots-master-metal-toe",
+        "price": "23.80", 
+        "image": "images/work-shoes-lowboots-master.png",
+        "alt": "work shoes lowboots master with metal toe"    
+      },
+      {
+        "name": "Полуботинки \"Профи\"",
+        "slug": "work-shoes-lowboots-profi",
+        "price": "25.60", 
+        "image": "images/work-shoes-lowboots-profi.png",
+        "alt": "work shoes lowboots profi"    
+      },
+      {
+        "name": "Полуботинки \"Профи\" с металлическим подноском",
+        "slug": "work-shoes-lowboots-profi-metal-toe",
+        "price": "25.90", 
+        "image": "images/work-shoes-lowboots-profi.png",
+        "alt": "work shoes lowboots profi with metal toe"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Сапоги",
+    "slug": "work-shoes-highboots",
+    "listproducts": 
+    [
+      {
+        "name": "Сапоги \"Мастер\"",
+        "slug": "work-shoes-highboots-master",
+        "price": "31.10", 
+        "image": "images/work-shoes-highboots-master.png",
+        "alt": "work shoes highboots master"    
+      },
+      {
+        "name": "Сапоги \"Мастер\" утепленные",
+        "slug": "work-shoes-highboots-master-insulated",
+        "price": "34.40", 
+        "image": "images/work-shoes-highboots-master.png",
+        "alt": "work shoes highboots master insulated"    
+      },
+      {
+        "name": "Сапоги\"Мастер\" с металлическим подноском",
+        "slug": "work-shoes-highboots-master-metal-toe",
+        "price": "31.70", 
+        "image": "images/work-shoes-highboots-master.png",
+        "alt": "work shoes highboots master with metal toe"    
+      },
+      {
+        "name": "Сапоги \"Мастер\" утепленные с металлическим подноском",
+        "slug": "work-shoes-highboots-master-insulated-metal-toe",
+        "price": "36.70", 
+        "image": "images/work-shoes-highboots-master.png",
+        "alt": "work shoes highboots master insulated  with metal toe"    
+      },
+      {
+        "name": "Сапоги \"Профи\"",
+        "slug": "work-shoes-highboots-profi",
+        "price": "31.70", 
+        "image": "images/work-shoes-highboots-profi.png",
+        "alt": "work shoes highboots profi"    
+      },
+      {
+        "name": "Сапоги \"Профи\" утепленные",
+        "slug": "work-shoes-highboots-profi-insulated",
+        "price": "36.40", 
+        "image": "images/work-shoes-highboots-profi.png",
+        "alt": "work shoes highboots profi insulated"    
+      },
+      {
+        "name": "Сапоги \"Профи\" с металлическим подноском",
+        "slug": "work-shoes-highboots-profi-metal-toe",
+        "price": "32.60", 
+        "image": "images/work-shoes-highboots-profi.png",
+        "alt": "work shoes highboots profi with metal toe"    
+      },
+      {
+        "name": "Сапоги \"Профи\" утепленные с металлическим подноском",
+        "slug": "work-shoes-highboots-profi-insulated-metal-toe",
+        "price": "37.50", 
+        "image": "images/work-shoes-highboots-profi.png",
+        "alt": "work shoes highboots profi insulated  with metal toe"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Резиновые сапоги",
+    "slug": "work-shoes-rubberboots",
+    "listproducts": 
+    [
+      {
+        "name": "Сапоги резиновые ПВХ",
+        "slug": "work-shoes-rubberboots-pvc",
+        "price": "6.20", 
+        "image": "images/work-shoes-rubberboots.png",
+        "alt": "work shoes rubber boots pvc"    
+      },
+      {
+        "name": "Сапоги усиленные резиновые ПВХ",
+        "slug": "work-shoes-rubberboots-pvc-reinforced",
+        "price": "9.40", 
+        "image": "images/work-shoes-rubberboots-reinforced.png",
+        "alt": "work shoes rubber boots pvc reinforced"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Тапочки",
+    "slug": "work-shoes-slippers",
+    "listproducts": 
+    [
+      {
+        "name": "Тапочки (чувяки) кожанные на подошве из пористой резины",
+        "slug": "work-shoes-slippers-product",
+        "price": "17.60", 
+        "image": "images/work-shoes-slippers.png",
+        "alt": "work shoes slippers"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Зимняя одежда",
+    "slug": "work-clothes-winter",
+    "listproducts": 
+    [
+      {
+        "name": "Куртка мужская \"Бригадир\"",
+        "slug": "work-clothes-winter-clothes-jacket-insulated-brigadir",
+        "price": "26.70", 
+        "image": "images/work-clothes-winter-clothes-jacket-insulated-brigadir.png",
+        "alt": "work clothes winter clothes jacket insulated brigadir"    
+      },
+      {
+        "name": "Куртка утепленная женская \"Онега\"",
+        "slug": "work-clothes-winter-clothes-jacket-insulated-female-onega",
+        "price": "44.90", 
+        "image": "images/work-clothes-winter-clothes-jacket-insulated-female-onega.png",
+        "alt": "work clothes winter clothes jacket insulated female onega"    
+      },
+      {
+        "name": "Полукомбинезон мужской утепленный",
+        "slug": "work-clothes-winter-clothes-bibpant-insulated-male",
+        "price": "23.45", 
+        "image": "images/work-clothes-winter-clothes-bibpant-insulated-male.png",
+        "alt": "work clothes winter clothes bibpant insulated male"    
+      },
+      {
+        "name": "Брюки мужские утепленные",
+        "slug": "work-clothes-winter-clothes-pants-insulated-male",
+        "price": "20.10", 
+        "image": "images/work-clothes-winter-clothes-pants-insulated-male.png",
+        "alt": "work clothes winter clothes pants insulated male"    
+      },
+      {
+        "name": "Жилет мужской утепленный \"Бренд\"",
+        "slug": "work-clothes-winter-clothes-vest-insulated-male-brend",
+        "price": "31.80", 
+        "image": "images/work-clothes-winter-clothes-vest-insulated-male-brend.png",
+        "alt": "work clothes winter clothes vest insulated male brend"    
+      },
+      {
+        "name": "Костюм мужской утепленный \"Бренд\"",
+        "slug": "work-clothes-winter-clothes-costume-insulated-male-brend",
+        "price": "174.90", 
+        "image": "images/work-clothes-winter-clothes-costume-insulated-male-brend.png",
+        "alt": "work clothes winter clothes costume insulated male brend"    
+      },
+      {
+        "name": "Костюм женский утепленный \"Зима\"",
+        "slug": "work-clothes-winter-clothes-costume-insulated-female-zima",
+        "price": "93.80", 
+        "image": "images/work-clothes-winter-clothes-costume-insulated-female-zima.png",
+        "alt": "work clothes winter clothes costume insulated female zima"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Летняя одежда",
+    "slug": "work-clothes-summer",
+    "listproducts": 
+    [
+      {
+        "name": "Костюм \"Ударник\"",
+        "slug": "work-clothes-summer-clothes-costume-udarnik",
+        "price": "15.10", 
+        "image": "images/work-clothes-summer-clothes-costume-udarnik.png",
+        "alt": "work clothes summer clothes costume udarnik"    
+      },
+      {
+        "name": "Костюм \"Стандарт плюс\"",
+        "slug": "work-clothes-summer-clothes-costume-standart-plus",
+        "price": "15.20", 
+        "image": "images/work-clothes-summer-clothes-costume-standart-plus.png",
+        "alt": "work clothes summer clothes costume standart plus"    
+      },
+      {
+        "name": "Халат мужской \"Технолог\"",
+        "slug": "work-clothes-summer-clothes-robe-male-tehnolog",
+        "price": "17.40", 
+        "image": "images/work-clothes-summer-clothes-robe-male-tehnolog.png",
+        "alt": "work clothes summer clothes robe male tehnolog"    
+      },
+      {
+        "name": "Халат женский \"Технолог\"",
+        "slug": "work-clothes-summer-clothes-robe-female-tehnolog",
+        "price": "17.40", 
+        "image": "images/work-clothes-summer-clothes-robe-female-tehnolog.png",
+        "alt": "work clothes summer clothes robe female tehnolog"    
+      },
+      {
+        "name": "Костюм \"Бренд\"",
+        "slug": "work-clothes-summer-clothes-costume-brend",
+        "price": "68.40", 
+        "image": "images/work-clothes-summer-clothes-costume-brend.png",
+        "alt": "work clothes summer clothes costume brend"    
+      },
+      {
+        "name": "Костюм женский \"Бренд\"",
+        "slug": "work-clothes-summer-clothes-costume-female-brend",
+        "price": "68.40", 
+        "image": "images/work-clothes-summer-clothes-costume-female-brend.png",
+        "alt": "work clothes summer clothes costume female brend"    
+      },
+      {
+        "name": "Костюм \"Бренд\"",
+        "slug": "work-clothes-summer-clothes-costume-brend1",
+        "price": "69.90", 
+        "image": "images/work-clothes-summer-clothes-costume-brend1.png",
+        "alt": "work clothes summer clothes costume brend1"    
+      },
+      {
+        "name": "Костюм женский \"Бренд\"",
+        "slug": "work-clothes-summer-clothes-costume-female-brend1",
+        "price": "69.90", 
+        "image": "images/work-clothes-summer-clothes-costume-female-brend1.png",
+        "alt": "work clothes summer clothes costume female brend1"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Влагозащитная одежда",
+    "slug": "work-clothes-waterproof",
+    "listproducts": 
+    [
+      {
+        "name": "Костюм влагозащитный",
+        "slug": "work-clothes-waterproof-clothes-costume",
+        "price": "21.60", 
+        "image": "images/work-clothes-waterproof-clothes-costume.png",
+        "alt": "work clothes waterproof clothes costume"    
+      },
+      {
+        "name": "Плащ влагозащитный",
+        "slug": "work-clothes-waterproof-clothes-cloak",
+        "price": "14.30", 
+        "image": "images/work-clothes-waterproof-clothes-cloak.png",
+        "alt": "work clothes waterproof clothes cloak"    
+      },
+      {
+        "name": "Плащ желтый влагозащитный со светоотражающими полосами",
+        "slug": "work-clothes-waterproof-clothes-cloak-yellow",
+        "price": "20.50", 
+        "image": "images/work-clothes-waterproof-clothes-cloak-yellow.png",
+        "alt": "work clothes waterproof clothes cloak yellow"    
+      },
+      {
+        "name": "Плащ оранжевый влагозащитный со светоотражающими полосами",
+        "slug": "work-clothes-waterproof-clothes-cloak-orange",
+        "price": "20.50", 
+        "image": "images/work-clothes-waterproof-clothes-cloak-orange.png",
+        "alt": "work clothes waterproof clothes cloak orange"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Одежда от кислот",
+    "slug": "work-clothes-acidproof",
+    "listproducts": 
+    [
+      {
+        "name": "Костюм КЩС лавсан",
+        "slug": "work-clothes-acidproof-clothes-costume",
+        "price": "36.70", 
+        "image": "images/work-clothes-acidproof-clothes-costume.png",
+        "alt": "work clothes acidproof clothes costume"    
+      },
+      {
+        "name": "Нарукавники КЩС",
+        "slug": "work-clothes-acidproof-clothes-sleeve-protectors",
+        "price": "3.80", 
+        "image": "images/work-clothes-acidproof-clothes-sleeve-protectors.png",
+        "alt": "work clothes acidproof clothes sleeve protectors"    
+      },
+      {
+        "name": "Фартук КЩС",
+        "slug": "work-clothes-acidproof-clothes-apron",
+        "price": "6.25", 
+        "image": "images/work-clothes-acidproof-clothes-apron.png",
+        "alt": "work clothes acidproof clothes apron"    
+      },
+      {
+        "name": "Халат женский КЩС лавсан",
+        "slug": "work-clothes-acidproof-clothes-robe-female",
+        "price": "28.65", 
+        "image": "images/work-clothes-acidproof-clothes-robe-female.png",
+        "alt": "work clothes acidproof clothes robe female"    
+      },
+      {
+        "name": "Халат мужской КЩС лавсан",
+        "slug": "work-clothes-acidproof-clothes-robe-male",
+        "price": "28.65", 
+        "image": "images/work-clothes-acidproof-clothes-robe-male.png",
+        "alt": "work clothes acidproof clothes robe male"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Одежда сварщика",
+    "slug": "work-clothes-welder",
+    "listproducts": 
+    [
+      {
+        "name": "Костюм сварщика брезентовый",
+        "slug": "work-clothes-welder-clothes-costume-tarpaulin",
+        "price": "33.40", 
+        "image": "images/work-clothes-welder-clothes-costume-tarpaulin.png",
+        "alt": "work clothes welder clothes costume tarpaulin"    
+      },
+      {
+        "name": "Костюм сварщика спилковый",
+        "slug": "work-clothes-welder-clothes-costume-split",
+        "price": "77.60", 
+        "image": "images/work-clothes-welder-clothes-costume-split.png",
+        "alt": "work clothes welder clothes costume split"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Жилеты сигнальные",
+    "slug": "work-clothes-vests",
+    "listproducts": 
+    [
+      {
+        "name": "Жилет сигнальный №2",
+        "slug": "work-clothes-vests-signal-2",
+        "price": "4.20", 
+        "image": "images/work-clothes-vests-signal-2.png",
+        "alt": "work clothes vests signal 2"    
+      },
+      {
+        "name": "Жилет сигнальный №4",
+        "slug": "work-clothes-vests-signal-4",
+        "price": "6.70", 
+        "image": "images/work-clothes-vests-signal-4.png",
+        "alt": "work clothes vests signal 4"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Защита глаз",
+    "slug": "personal-protective-equipment-eye-protection",
+    "listproducts": 
+    [
+      {
+        "name": "Закрытые защитные очки",
+        "slug": "personal-protective-equipment-eye-protection-glasses",
+        "price": "6.70", 
+        "image": "images/personal-protective-equipment-eye-protection-glasses.png",
+        "alt": "personal protective equipment eye protection glasses"    
+      },
+      {
+        "name": "Открытые защитные очки \"Классик\"",
+        "slug": "personal-protective-equipment-eye-protection-glasses-classic",
+        "price": "1.55", 
+        "image": "images/personal-protective-equipment-eye-protection-glasses-classic.png",
+        "alt": "personal protective equipment eye protection glasses classic"    
+      },
+      {
+        "name": "Открытые защитные очки \"ПРО Комфорт\"",
+        "slug": "personal-protective-equipment-eye-protection-glasses-prokomfort",
+        "price": "2.60", 
+        "image": "images/personal-protective-equipment-eye-protection-glasses-prokomfort.png",
+        "alt": "personal protective equipment eye protection glasses prokomfort"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Защита головы",
+    "slug": "personal-protective-equipment-head-protection",
+    "listproducts": 
+    [
+      {
+        "name": "Бейсболка",
+        "slug": "personal-protective-equipment-head-protection-baseball-cap",
+        "price": "2.70", 
+        "image": "images/personal-protective-equipment-head-protection-baseball-cap.png",
+        "alt": "personal protective equipment head protection baseball cap"    
+      },
+      {
+        "name": "Каска защитная",
+        "slug": "personal-protective-equipment-head-protection-helmet",
+        "price": "2.75", 
+        "image": "images/personal-protective-equipment-head-protection-helmet.png",
+        "alt": "personal protective equipment head protection helmet"    
+      },
+      {
+        "name": "Подшлемник летний",
+        "slug": "personal-protective-equipment-head-protection-balaclava",
+        "price": "3.50", 
+        "image": "images/personal-protective-equipment-head-protection-balaclava.png",
+        "alt": "personal protective equipment head protection balaclava"    
+      },
+      {
+        "name": "Подшлемник утепленный",
+        "slug": "personal-protective-equipment-head-protection-balaclava-insulated",
+        "price": "3.85", 
+        "image": "images/personal-protective-equipment-head-protection-balaclava-insulated.png",
+        "alt": "personal protective equipment head protection balaclava insulated"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Защита органов дыхания",
+    "slug": "personal-protective-equipment-respiratory-protection",
+    "listproducts": 
+    [
+      {
+        "name": "Бейсболка",
+        "slug": "personal-protective-equipment-head-protection-baseball-cap",
+        "price": "2.70", 
+        "image": "images/personal-protective-equipment-head-protection-baseball-cap.png",
+        "alt": "personal protective equipment head protection baseball cap"    
+      }
     ]
   }
 ]
