@@ -50,7 +50,7 @@ export default function MainSection() {
       <div className={style.listGroups}>
         {listGroups}
       </div>
-      <section className={style.hit}>
+      <section className={style.bestseller}>
         <h3>
           Хит продаж
         </h3>
