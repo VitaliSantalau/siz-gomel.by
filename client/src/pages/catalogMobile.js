@@ -1,15 +1,20 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react'
+import { Link } from "gatsby"
 
-import style from "../css/catalogNav.module.css";
-import workShoesIcon from "../icons/footWhite.png";
-import workClothesIcon from "../icons/clothesWhite.png";
-import siz from "../icons/sizWhite.png";
-import medical from "../icons/medicalWhite.png";
+import style from "../css/catalogMobile.module.css"
 
-export default function CatalogNav() {
-  return (   
-    <nav className={style.nav}>
+import MainLayout from "../components/mainLayout"
+import workShoesIcon from "../icons/footWhite.png"
+import workClothesIcon from "../icons/clothesWhite.png"
+import siz from "../icons/sizWhite.png"
+import medical from "../icons/medicalWhite.png"
+
+
+export default function CatalogMobile() {
+  return (
+    <MainLayout>
+      <main>
+        <nav className={style.nav}>
       <h2 className={style.wordCATALOG}>КАТАЛОГ</h2>  
       <div className={style.containerGroupSubgroup}>
         <Link to="/work-shoes/" className={style.group}>
@@ -64,6 +69,8 @@ export default function CatalogNav() {
           <Link to="/medical-protection-masks/" className={style.subgroup} activeClassName={style.activeSubGroup}>Маски</Link>
         </div>
       </div>
-    </nav>
+        </nav>
+      </main>
+    </MainLayout>
   )
 };

@@ -1,0 +1,54 @@
+.nav {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 1em 2em 0;
+  }
+  
+  .wordCATALOG {
+    padding-left: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .containerGroupSubgroup {
+    margin-bottom: 1em;
+  }
+  
+  .group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    color: #f5f8f9;
+    background-color: rgba(39, 95, 184, .9);
+    border-top-right-radius: 1.3em;
+    border-bottom-right-radius: 1.3em;
+  }
+  
+  .groupIcon {
+    height: 1.4em;
+    margin: 1% 5% 1% 10%;
+  }
+  
+  .containerSubgroup {
+    
+  }
+  
+  .subgroup {
+    font-size: 1.2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+    padding-left: 15%;
+    color: #000000;
+  }
+  
+  .subgroup:hover {
+    color: #FF3333;
+  }
+  
+  .activeSubGroup {
+    color: #FF3333;
+  }

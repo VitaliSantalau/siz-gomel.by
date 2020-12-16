@@ -16,7 +16,7 @@ import Globe from "../images/globe.png"
 
 export default function Header() {
   return (
-    <header>
+    <header className={style.header}>
       <div className={style.firstLevel}>
         <Link to="/" className={style.logo}>
           <img className={style.iconLogo} src={Globe} alt="this is the logo it is a globe" />

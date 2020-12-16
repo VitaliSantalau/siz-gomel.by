@@ -52,3 +52,9 @@
 .activeSubGroup {
   color: #FF3333;
 }
+
+@media all and (max-width: 360px) {
+  .nav {
+    display: none;
+  }
+}
