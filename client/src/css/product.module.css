@@ -3,6 +3,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   margin: 2.5em 1em;
 }
 
@@ -16,8 +17,8 @@
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
 }
 
 .descriptionProduct {
@@ -38,12 +39,14 @@
 }
 
 .descriptionProduct > h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 3em;
 }
 
 .text {
+  font-size: 1.2em;
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid gray;
 }
 
 .descriptionProduct > div, .text > div {
@@ -53,11 +56,16 @@
   margin-bottom: 1rem;
 }
 
-.descriptionProduct strong, .text strong {
+.text strong {
   margin-right: .5rem;
 } 
 
-.descriptionPriceProduct >.priceNds {
-  padding: 2rem 0;
-  border-top: 1px solid;
+.priceNds {
+  display: flex;
+  align-items: baseline;
+}
+
+.price {
+  font-size: 1.5em;
+  font-weight: 700;
 }

@@ -137,25 +137,25 @@
   {
     "groupName": "Медицинские СИЗ",
     "slug": "medical-protection",
-    "image": "images/medical-protection-shoe-covers.png",
+    "image": "images/medical-protection-shoe-covers-product.png",
     "alt": "medical-protection",
     "subgroup": 
     [ 
       {
         "subgroupName": "Щитки",
         "slug": "medical-protection-shields",
-        "image": "images/medical-protection-shield.png",
+        "image": "images/medical-protection-shields-facial.png",
         "alt": "medical-protection shields"
       },
       {
         "subgroupName": "Бахилы",
         "slug": "medical-protection-shoe-covers",
-        "image": "images/medical-protection-shoe-covers.png",
+        "image": "images/medical-protection-shoe-covers-product.png",
         "alt": "medical-protection shields"
       },
       {
         "subgroupName": "Маски",
-        "slug": "medical-protection",
+        "slug": "medical-protection-masks",
         "image": "images/medical-protection-mask-istokFFP.png",
         "alt": "medical-protection masks"
       }

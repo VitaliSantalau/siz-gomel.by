@@ -565,11 +565,214 @@
     "listproducts": 
     [
       {
-        "name": "Бейсболка",
-        "slug": "personal-protective-equipment-head-protection-baseball-cap",
-        "price": "2.70", 
-        "image": "images/personal-protective-equipment-head-protection-baseball-cap.png",
-        "alt": "personal protective equipment head protection baseball cap"    
+        "name": "Изолирующая полумаска \"Исток-400\" с противоаэрозольным фильтром",
+        "slug": "personal-protective-equipment-respiratory-protection-half-mask-istok400",
+        "price": "7.90", 
+        "image": "images/personal-protective-equipment-respiratory-protection-istok400.png",
+        "alt": "personal protective equipment respiratory protection half mask istok400"    
+      },
+      {
+        "name": "Противоаэрозольная полумаска \"Исток-1СК\" FFP1",
+        "slug": "personal-protective-equipment-respiratory-protection-half-mask-istok1CK",
+        "price": "2.50", 
+        "image": "images/personal-protective-equipment-respiratory-protection-half-mask-istok1CK.png",
+        "alt": "personal protective equipment respiratory protection half mask istok1CK"    
+      },
+      {
+        "name": "Противоаэрозольная полумаска У-2К FFP1",
+        "slug": "personal-protective-equipment-respiratory-protection-half-mask-Y2K",
+        "price": "2.40", 
+        "image": "images/personal-protective-equipment-respiratory-protection-half-mask-Y2K.png",
+        "alt": "personal protective equipment respiratory protection half mask Y2K"    
+      },
+      {
+        "name": "Фильтр противогазовый к респиратору \"Исток-400\"",
+        "slug": "personal-protective-equipment-respiratory-protection-filter",
+        "price": "3.20", 
+        "image": "images/personal-protective-equipment-respiratory-protection-filter.png",
+        "alt": "personal protective equipment respiratory protection filter"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Защита органов слуха",
+    "slug": "personal-protective-equipment-hearing-protection",
+    "listproducts": 
+    [
+      {
+        "name": "Наушники противошумные \"Исток\"",
+        "slug": "personal-protective-equipment-hearing-protection-earphones-istok",
+        "price": "5.80", 
+        "image": "images/personal-protective-equipment-hearing-protection-earphones-istok.png",
+        "alt": "personal protective equipment hearing protection earphones istok"    
+      },
+      {
+        "name": "Наушники противошумные складные \"Исток\"",
+        "slug": "personal-protective-equipment-hearing-protection-earphones-folding-istok",
+        "price": "6.90", 
+        "image": "images/personal-protective-equipment-hearing-protection-earphones-folding-istok.png",
+        "alt": "personal protective equipment hearing protection earphones folding istok"    
+      },
+      {
+        "name": "Наушники противошумные \"Исток\" с креплением на каску",
+        "slug": "personal-protective-equipment-hearing-protection-earphones-with-mount",
+        "price": "6.90", 
+        "image": "images/personal-protective-equipment-hearing-protection-earphones-with-mount.png",
+        "alt": "personal protective equipment hearing protection earphones with mount"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Защита при высотных работах",
+    "slug": "personal-protective-equipment-height-work-protection",
+    "listproducts": 
+    [
+      {
+        "name": "Строп А",
+        "slug": "personal-protective-equipment-height-work-protection-strop",
+        "price": "14.30", 
+        "image": "images/personal-protective-equipment-height-work-protection-strop.png",
+        "alt": "personal protective equipment height work protection strop"    
+      },
+      {
+        "name": "Страховочная привязь \"СП-03\"",
+        "slug": "personal-protective-equipment-height-work-protection-safety-harness",
+        "price": "37.40", 
+        "image": "images/personal-protective-equipment-height-work-protection-safety-harness.png",
+        "alt": "personal protective equipment height work protection safety harness"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Защита рук",
+    "slug": "personal-protective-equipment-hand-protection",
+    "listproducts": 
+    [
+      {
+        "name": "Перчатки ХБ с ПВХ покрытием",
+        "slug": "personal-protective-equipment-hand-protection-gloves-cotton-pvc",
+        "price": "0.35", 
+        "image": "images/personal-protective-equipment-hand-protection-gloves-cotton-pvc.png",
+        "alt": "personal protective equipment hand protection gloves cotton with pvc"    
+      },
+      {
+        "name": "Перчатки ХБ с двойным латексным покрытием",
+        "slug": "personal-protective-equipment-hand-protection-gloves-cotton-double-latex",
+        "price": "0.70", 
+        "image": "images/personal-protective-equipment-hand-protection-gloves-cotton-double-latex.png",
+        "alt": "personal protective equipment hand protection gloves cotton with double latex"    
+      },
+      {
+        "name": "Рукавицы брезентовые",
+        "slug": "personal-protective-equipment-hand-protection-mittens-tarpaulin",
+        "price": "0.85", 
+        "image": "images/personal-protective-equipment-hand-protection-mittens-tarpaulin.png",
+        "alt": "personal protective equipment hand protection mittens tarpaulin"    
+      },
+      {
+        "name": "Перчатки нейлоновые с полиуретановым покрытием",
+        "slug": "personal-protective-equipment-hand-protection-gloves-nylon-polyurethane",
+        "price": "1.00", 
+        "image": "images/personal-protective-equipment-hand-protection-gloves-nylon-polyurethane.png",
+        "alt": "personal protective equipment hand protection gloves nylon with polyurethane"    
+      },
+      {
+        "name": "Рукавицы ХБ с двойным наладонником",
+        "slug": "personal-protective-equipment-hand-protection-mittens-cotton",
+        "price": "1.20", 
+        "image": "images/personal-protective-equipment-hand-protection-mittens-cotton.png",
+        "alt": "personal protective equipment hand protection mittens cotton"    
+      },
+      {
+        "name": "Перчатки нейлоновые с нитриловым покрытием",
+        "slug": "personal-protective-equipment-hand-protection-gloves-nylon-nitrile",
+        "price": "1.20", 
+        "image": "images/personal-protective-equipment-hand-protection-gloves-nylon-nitrile.png",
+        "alt": "personal protective equipment hand protection gloves nylon with nitrile"    
+      },
+      {
+        "name": "Перчатки ХБ с латексным покрытием",
+        "slug": "personal-protective-equipment-hand-protection-gloves-cotton-latex",
+        "price": "1.40", 
+        "image": "images/personal-protective-equipment-hand-protection-gloves-cotton-latex.png",
+        "alt": "personal protective equipment hand protection gloves cotton with latex"    
+      },
+      {
+        "name": "Перчатки КЩС",
+        "slug": "personal-protective-equipment-hand-protection-gloves-acid-resistant",
+        "price": "1.60", 
+        "image": "images/personal-protective-equipment-hand-protection-gloves-acid-resistant.png",
+        "alt": "personal protective equipment hand protection gloves acid resistant"    
+      },
+      {
+        "name": "Перчатки нитриловые, манжет – резинка",
+        "slug": "personal-protective-equipment-hand-protection-gloves-nitrile",
+        "price": "2.10", 
+        "image": "images/personal-protective-equipment-hand-protection-gloves-nitrile.png",
+        "alt": "personal protective equipment hand protection gloves nitrile"    
+      },
+      {
+        "name": "Краги",
+        "slug": "personal-protective-equipment-hand-protection-leathers",
+        "price": "5.80", 
+        "image": "images/personal-protective-equipment-hand-protection-leathers.png",
+        "alt": "personal protective equipment hand protection leathers"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Щитки",
+    "slug": "medical-protection-shields",
+    "listproducts":
+    [
+      {
+        "name": "Щиток защитный лицевой",
+        "slug": "medical-protection-shields-facial",
+        "price": "6.00", 
+        "image": "images/medical-protection-shields-facial.png",
+        "alt": "medical protection shields facial"    
+      },
+      {
+        "name": "Щиток защитный лицевой с подъемным экраном",
+        "slug": "medical-protection-shields-facial-lifting-screen",
+        "price": "8.20", 
+        "image": "images/medical-protection-shields-facial-lifting-screen.png",
+        "alt": "medical protection shields facial with lifting screen"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Бахилы",
+    "slug": "medical-protection-shoe-covers",
+    "listproducts":
+    [
+      {
+        "name": "Бахилы прочные 3гр*30мкр",
+        "slug": "medical-protection-shoe-covers-product",
+        "price": "4.00", 
+        "image": "images/medical-protection-shoe-covers-product.png",
+        "alt": "medical protection shoe covers"    
+      }
+    ]
+  },
+  {
+    "subgroupName": "Маски",
+    "slug": "medical-protection-masks",
+    "listproducts":
+    [
+      {
+        "name": "Полумаска противоаэрозольная \"ИСТОК-1СК\" FFP1",
+        "slug": "medical-protection-mask-istokFFP",
+        "price": "2.50", 
+        "image": "images/medical-protection-mask-istokFFP.png",
+        "alt": "medical protection mask istokFFP"    
+      },
+      {
+        "name": "Противоаэрозольная полумаска У-2К FFP1",
+        "slug": "medical-protection-mask-Y2K",
+        "price": "2.40", 
+        "image": "images/medical-protection-mask-Y2K.png",
+        "alt": "medical protection mask Y2K"    
       }
     ]
   }

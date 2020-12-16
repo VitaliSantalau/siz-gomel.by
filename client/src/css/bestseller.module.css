@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   margin-bottom: 2em;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .subgroup {
@@ -34,8 +34,8 @@
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 90%;
 }
 
 .containerSubGroupNamePrice {
@@ -49,6 +49,7 @@
 
 .subgroupName {
   font-size: .8em;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -67,7 +68,7 @@
 .subgroupPrice {
   align-self: flex-start;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .nds {

@@ -37,7 +37,6 @@ const Product = ({ data }) => {
               alt={product.alt}
             />
           </div>
-          
           <div className={style.descriptionProduct}>
             <h2 className={style.groupName}>{product.name}</h2>
             <div dangerouslySetInnerHTML={{ __html: product.description }} className={style.text}/>

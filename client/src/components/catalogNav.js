@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "gatsby";
 
 import style from "../css/catalogNav.module.css";
-import workShoesIcon from "../icons/foot.png";
-import workClothesIcon from "../icons/clothes.png";
-import siz from "../icons/siz.png";
-import medical from "../icons/medical.png";
+import workShoesIcon from "../icons/footWhite.png";
+import workClothesIcon from "../icons/clothesWhite.png";
+import siz from "../icons/sizWhite.png";
+import medical from "../icons/medicalWhite.png";
 
 export default function CatalogNav() {
 
@@ -51,7 +51,7 @@ export default function CatalogNav() {
           <Link to="/personal-protective-equipment-head-protection/" className={style.subgroup} activeClassName={style.activeSubGroup}>Защита головы</Link>
           <Link to="/personal-protective-equipment-respiratory-protection/" className={style.subgroup} activeClassName={style.activeSubGroup}>Защита органов дыхания</Link>
           <Link to="/personal-protective-equipment-hearing-protection/" className={style.subgroup} activeClassName={style.activeSubGroup}>Защита органов слуха</Link>
-          <Link to="/personal-protective-equipment-height-protection/" className={style.subgroup} activeClassName={style.activeSubGroup}>Защита при высотных работах</Link>
+          <Link to="/personal-protective-equipment-height-work-protection/" className={style.subgroup} activeClassName={style.activeSubGroup}>Защита при высотных работах</Link>
           <Link to="/personal-protective-equipment-hand-protection/" className={style.subgroup} activeClassName={style.activeSubGroup}>Защита рук</Link>
         </div>
       </div>
@@ -61,7 +61,7 @@ export default function CatalogNav() {
           <div className={style.groupText}>Медицинские СИЗ</div>
         </Link>
         <div className={style.containerSubgroup}>
-          <Link to="/medical-protection-flaps/" className={style.subgroup} activeClassName={style.activeSubGroup}>Щитки</Link>
+          <Link to="/medical-protection-shields/" className={style.subgroup} activeClassName={style.activeSubGroup}>Щитки</Link>
           <Link to="/medical-protection-shoe-covers/" className={style.subgroup} activeClassName={style.activeSubGroup}>Бахилы</Link>
           <Link to="/medical-protection-masks/" className={style.subgroup} activeClassName={style.activeSubGroup}>Маски</Link>
         </div>
