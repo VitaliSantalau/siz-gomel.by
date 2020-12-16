@@ -29,14 +29,14 @@ export const query = graphql`
 const Listsubgroups = ({ data }) => {
   const listsubgroups = data.groupsJson.subgroup.map(item => {
     return (
-      <Link to={`/${item.slug}/`} className={style.group} activeClassName={style.activeGroup}>
-        <div className={style.containerGroupImage}>
-          <Img className={style.groupImage}
+      <Link to={`/${item.slug}/`} className={style.subGroup}>
+        <div className={style.containerSubGroupImage}>
+          <Img className={style.subGroupImage}
             fluid={item.image.childImageSharp.fluid}
             alt={item.alt}
           />
         </div>
-        <h2 className={style.groupName}>{item.subgroupName}</h2>
+        <h2 className={style.subGroupName}>{item.subgroupName}</h2>
       </Link>
     )   
   })
@@ -47,7 +47,7 @@ const Listsubgroups = ({ data }) => {
         <CatalogNav />
         <div className={style.mainSection}>
           <h1>{data.groupsJson.groupName}</h1>
-          <div className={style.listGroups}>
+          <div className={style.listSubGroups}>
             {listsubgroups}
           </div>
         </div>

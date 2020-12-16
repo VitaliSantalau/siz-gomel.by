@@ -28,7 +28,6 @@ export default function MainSection() {
     }
   }
   `)
-
   
   const listGroups = data.allGroupsJson.edges.map(edge => {
     const group = edge.node;
@@ -83,7 +82,6 @@ export default function MainSection() {
           <p> - по безналичному расчету</p>
         </div>
       </section>
-
     </div>
   )
   }

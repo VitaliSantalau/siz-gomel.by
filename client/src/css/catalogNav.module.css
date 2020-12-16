@@ -53,7 +53,7 @@
   color: #FF3333;
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 414px) {
   .nav {
     display: none;
   }

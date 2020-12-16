@@ -148,7 +148,7 @@
   margin: 0 1em .5em 0;
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 480px) {
   .header {
     display: none;
   }

@@ -48,26 +48,36 @@
 .containerGroupImage {
   width: 100%;
   height: 77%;
-  position: relative;
-  /*padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  /*position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
 
-.groupImage {
+/*.groupImage {
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-}
+}*/
 
 .groupName {
   font-size: 1.2em;
   text-align: center;
+  margin-top: .5em;
 }
 
-.subgroup {
+.listSubGroups {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+
+.subGroup {
   width: 14em;
-  height: 22em;
+  height: 20em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,24 +87,24 @@
   border-radius: .5em;
 }
 
-.subgroup:hover {
+.subGroup:hover {
   border: 1px solid;
 }
 
 .containerSubGroupImage {
   width: 100%;
   height: 70%;
-  position: relative;
+  /*position: relative;
   /*padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
 
-.subgroupImage {
+/*.subgroupImage {
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-}
+}*/
 
 .containerSubGroupNamePrice {
   align-self: stretch;
@@ -105,7 +115,7 @@
   align-items: center;
 }
 
-.subgroupName {
+.subGroupName {
   font-size: 1em;
   text-align: center;
 }
@@ -153,7 +163,7 @@
   margin-bottom: 1.6em;
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 480px) {
   .mainSection {
     width: 100%;
     display: flex;
