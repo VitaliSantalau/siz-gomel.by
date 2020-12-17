@@ -24,8 +24,10 @@ export default function Footer() {
           <div className={style.phone}>+375 (29) 577-46-40</div>    
         </div>
       </div> 
-      <div className={style.nameGloboBel}>&#169; Глобо-Бел, УНП 491338788</div>  
-      <div>Информационный ресурс зарегистрирован в государственном реестре РБ №168247 от 12.11.2020</div>
+      <section>
+        <div className={style.nameGloboBel}>&#169; Глобо-Бел, УНП 491338788</div>  
+        <div>Информационный ресурс зарегистрирован в государственном реестре РБ №168247 от 12.11.2020</div>
+      </section>
     </footer>
   )
 };

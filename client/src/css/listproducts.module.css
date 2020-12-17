@@ -92,8 +92,8 @@
   
   @media all and (max-width: 480px) {
     .mainSection {
-      min-height: 200vh;
       width: 100%;
+      min-height: 150vh;
     }
 
     .listProducts {

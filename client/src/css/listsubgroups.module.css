@@ -100,7 +100,7 @@
   @media all and (max-width: 480px) {
     .mainSection {
       width: 100%;
-      min-height: 200vh;
+      min-height: 150vh;
     }
 
     .subGroup {

@@ -30,7 +30,8 @@ const Product = ({ data }) => {
     <MainLayout>
       <main>
         <CatalogNav />
-        <section className={style.product}>
+        <section className={style.mainSection}>
+        <div className={style.product}>
           <div className={style.containerImage}>
             <Img className={style.imageProduct}
               fluid={product.image.childImageSharp.fluid}
@@ -45,6 +46,7 @@ const Product = ({ data }) => {
               <div className={style.nds}>(без НДС)</div>
             </div>
           </div>
+        </div>
         </section>
       </main>
     </MainLayout>

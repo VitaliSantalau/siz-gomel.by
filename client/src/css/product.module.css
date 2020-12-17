@@ -1,27 +1,31 @@
+.mainSection {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .product {
-  width: 90%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  margin: 2.5em 1em;
+  margin: 2em 1em;
 }
 
 .containerImage {
-  width: 20em;
-  height: 22em;
-  position: relative;
+  width: 35%;
+  height: 20em;
+  margin: 0 1em;
 }
 
 .imageProduct {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
 }
 
 .descriptionProduct {
+  width: 55%;
   display: flex;
   flex-direction: column;
 }
@@ -68,4 +72,32 @@
 .price {
   font-size: 1.5em;
   font-weight: 700;
+}
+
+@media all and (max-width: 480px) {
+  .mainSection {
+    width: 100%;
+    min-height: 150vh;
+    flex-direction: column;
+  }
+
+  .product {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .containerImage {
+    width: 70%;
+    height: 22em;
+  }
+
+  .descriptionProduct {
+    width: 90%;
+  }
+
+  .descriptionProduct > h2 {
+    text-align: center;
+  }
 }
