@@ -13,6 +13,7 @@ export default function Bestseller() {
         node {
           id
           name
+          slug
           price
           image {
             childImageSharp {

@@ -13,6 +13,7 @@ export default function NewProducts() {
         node {
           id
           name
+          slug
           price
           image {
             childImageSharp {

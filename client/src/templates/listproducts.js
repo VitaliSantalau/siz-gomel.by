@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
-import style from "../css/mainSection.module.css"
+import style from "../css/listproducts.module.css"
 import MainLayout from "../components/mainLayout"
 import CatalogNav from "../components/catalogNav"
 
@@ -30,18 +30,18 @@ export const query = graphql`
 const Listproducts = ({ data }) => {
   const listproducts = data.productsJson.listproducts.map(item => {
     return (
-      <Link to={`/${item.slug}/`} className={style.subgroup} activeClassName={style.activeGroup}>
-        <div className={style.containerSubGroupImage}>
-          <Img className={style.subgroupImage}
+      <Link to={`/${item.slug}/`} className={style.productCard} key={item.slug}>
+        <div className={style.containerProductCardImage}>
+          <Img className={style.productCardImage}
             fluid={item.image.childImageSharp.fluid}
             alt={item.alt}
           />
         </div>
-        <div className={style.containerSubGroupNamePrice}>
-          <h2 className={style.subgroupName}>{item.name}</h2>
+        <div className={style.containerProductCardNamePrice}>
+          <h2 className={style.productCardName}>{item.name}</h2>
           <div className={style.containerPriceDetails}>
             <div className={style.containerPriceNds}>
-              <div className={style.subgroupPrice}>{item.price}</div>
+              <div className={style.productCardPrice}>{item.price}</div>
               <div className={style.nds}>(без НДС)</div>
             </div>            
             <div className={style.details}>подробнее</div>
@@ -57,7 +57,7 @@ const Listproducts = ({ data }) => {
         <CatalogNav />
         <div className={style.mainSection}>
           <h1>{data.productsJson.subgroupName}</h1>
-          <div className={style.listGroups}>
+          <div className={style.listProducts}>
             {listproducts}
           </div>
         </div>

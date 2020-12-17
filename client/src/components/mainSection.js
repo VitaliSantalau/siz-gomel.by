@@ -13,6 +13,7 @@ export default function MainSection() {
     allGroupsJson {
       edges {
         node {
+          id
           groupName
           slug
           image {
@@ -32,7 +33,7 @@ export default function MainSection() {
   const listGroups = data.allGroupsJson.edges.map(edge => {
     const group = edge.node;
     return ( 
-      <Link to={`/${group.slug}/`} className={style.group} activeClassName={style.activeGroup}>
+      <Link to={`/${group.slug}/`} className={style.group} key={group.id}>
         <div className={style.containerGroupImage}>
           <Img className={style.groupImage}
             fluid={group.image.childImageSharp.fluid}

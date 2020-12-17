@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
-import style from "../css/mainSection.module.css"
+import style from "../css/listsubgroups.module.css"
 import MainLayout from "../components/mainLayout"
 import CatalogNav from "../components/catalogNav"
 
@@ -29,7 +29,7 @@ export const query = graphql`
 const Listsubgroups = ({ data }) => {
   const listsubgroups = data.groupsJson.subgroup.map(item => {
     return (
-      <Link to={`/${item.slug}/`} className={style.subGroup}>
+      <Link to={`/${item.slug}/`} className={style.subGroup} key={item.slug}>
         <div className={style.containerSubGroupImage}>
           <Img className={style.subGroupImage}
             fluid={item.image.childImageSharp.fluid}

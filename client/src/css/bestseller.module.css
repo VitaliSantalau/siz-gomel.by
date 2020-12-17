@@ -68,10 +68,23 @@
 
 .details {
   display: none;
-  font-size: .6em;
+  font-size: .8em;
   color: #FF3333;
 }
 
 .productCard:hover>.containerProductCardNamePrice>.containerPriceDetails>.details {
   display: block;
+}
+
+@media all and (max-width: 480px) {
+  .productCard {
+    min-width: 10em;
+    max-width: 12em;
+    height: 15.5em;
+  }
+
+  .containerProductCardImage {
+    width: 90%;
+    height: 60%;
+  }
 }
