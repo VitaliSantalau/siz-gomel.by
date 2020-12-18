@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import style from "../css/listsubgroups.module.css"
 import MainLayout from "../components/mainLayout"
+import SEO from "../components/seo"
 import CatalogNav from "../components/catalogNav"
 
 
@@ -43,6 +44,7 @@ const Listsubgroups = ({ data }) => {
 
   return (
     <MainLayout>
+      <SEO title={data.groupsJson.groupName}/>
       <main>
         <CatalogNav />
         <div className={style.mainSection}>

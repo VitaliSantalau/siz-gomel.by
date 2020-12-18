@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import style from "../css/product.module.css"
 
 import MainLayout from "../components/mainLayout"
+import SEO from "../components/seo"
 import CatalogNav from "../components/catalogNav"
 
 export const query = graphql`
@@ -28,6 +29,7 @@ const Product = ({ data }) => {
   const product = data.productJson
   return (
     <MainLayout>
+      <SEO title={product.name}/>
       <main>
         <CatalogNav />
         <section className={style.mainSection}>

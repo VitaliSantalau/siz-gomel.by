@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import style from "../css/catalogMobile.module.css"
 
 import MainLayout from "../components/mainLayout"
+import SEO from "../components/seo"
 import workShoesIcon from "../icons/footWhite.png"
 import workClothesIcon from "../icons/clothesWhite.png"
 import siz from "../icons/sizWhite.png"
@@ -13,6 +14,7 @@ import medical from "../icons/medicalWhite.png"
 export default function CatalogMobile() {
   return (
     <MainLayout>
+      <SEO title="Каталог"/>
       <main>
         <nav className={style.nav}>
       <h2 className={style.wordCATALOG}>КАТАЛОГ</h2>  
