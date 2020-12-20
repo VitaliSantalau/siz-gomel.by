@@ -14,7 +14,7 @@ import medical from "../icons/medicalWhite.png"
 export default function CatalogMobile() {
   return (
     <MainLayout>
-      <SEO title="Каталог"/>
+      <SEO title="Каталог" description="Страница каталога для мобильной версии"/>
       <main>
         <nav className={style.nav}>
       <h2 className={style.wordCATALOG}>КАТАЛОГ</h2>  

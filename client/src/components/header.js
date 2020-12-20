@@ -3,16 +3,7 @@ import { Link } from "gatsby";
 
 import style from "../css/header.module.css";
 import PageNav from "./pageNav";
-import Globe from "../images/globe.png"
-
-/*const deleteBefore = <div className={style.slogan}>
-  <div>ПРОДАЖА</div>
-  <div>РАБОЧЕЙ</div>
-  <div>ОБУВИ,</div>
-  <div>СПЕЦОДЕЖДЫ</div>
-  <div>И</div>
-  <div>СИЗ</div> 
-</div>*/
+import Globe from "../icons/globe.png"
 
 export default function Header() {
   return (
@@ -22,11 +13,11 @@ export default function Header() {
           <img className={style.iconLogo} src={Globe} alt="this is the logo it is a globe" />
           <div className={style.textLogo}>
             <div className={style.siteName}>
-              <div>gomel</div>
+              <div>GOMEL</div>
               <div>-</div>
-              <div>siz</div> 
+              <div>SIZ</div> 
               <div>.</div>
-              <div>by</div> 
+              <div>BY</div> 
             </div>
           </div>
         </Link>

@@ -1,5 +1,5 @@
 .mainSection {
-  width: 75%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -14,18 +14,18 @@
 }
 
 .containerImage {
-  width: 35%;
-  height: 21em;
+  width: 20em;
+  height: 20em;
   margin: 0 1em;
 }
 
 .imageProduct {
-  height: 100%;
-  width: 100%;
+  width: 90%;
+  height: 90%;  
 }
 
 .descriptionProduct {
-  width: 55%;
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -57,6 +57,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
@@ -74,7 +75,22 @@
   font-weight: 700;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 1200px) {
+  .product {
+    flex-direction: column;
+  }
+
+  .containerImage {
+    width: 20em;
+    height: 20em;
+  }
+
+  .descriptionProduct {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 550px) {
   .mainSection {
     width: 100%;
     min-height: 150vh;
@@ -82,6 +98,7 @@
   }
 
   .product {
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
@@ -89,15 +106,26 @@
   }
 
   .containerImage {
-    width: 70%;
-    height: 22em;
+    width: 16em;
+    height: 16em;
+    margin-top: 1em;
   }
 
   .descriptionProduct {
-    width: 90%;
+    width: 80%;
+    margin-left: 1em;
   }
 
   .descriptionProduct > h2 {
+    font-size: 1.3em;
     text-align: center;
+  }
+}
+
+@media all and (max-width: 290px) {
+  .containerImage {
+    width: 10em;
+    height: 10em;
+    margin-top: 1em;
   }
 }

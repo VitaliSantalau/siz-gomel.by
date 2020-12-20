@@ -54,7 +54,7 @@ const Listproducts = ({ data }) => {
 
   return (
     <MainLayout>
-      <SEO title={data.productsJson.subgroupName}/>
+      <SEO title={data.productsJson.subgroupName} description={`Список товаров для подраздела ${data.productsJson.subgroupName}`}/>
       <main>
         <CatalogNav />
         <div className={style.mainSection}>

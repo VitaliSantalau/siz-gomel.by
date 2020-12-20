@@ -1,5 +1,5 @@
 .mainSection {
-    width: 75%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,8 +20,7 @@
   }
   
   .productCard {
-    min-width: 14em;
-    max-width: 14em;
+    width: 14em;
     height: 21em;
     display: flex;
     flex-direction: column;
@@ -90,24 +89,73 @@
     display: block;
   }
   
-  @media all and (max-width: 480px) {
+  @media all and (max-width: 550px) {
     .mainSection {
       width: 100%;
       min-height: 150vh;
     }
 
+    .mainSection > h1 {
+      font-size: 1.2em;
+    }
+
     .listProducts {
-      justify-content: center;
+      justify-content: space-evenly;
     }
 
     .productCard {
-      min-width: 13em;
-      max-width: 13em;
-      height: 19em;
+      width: 40%;
+      height: 21em;
     }
   
     .containerProductCardImage {
+      width: 100%;
+      height: 70%;
+    }
+  }
+
+  @media all and (max-width: 430px) {
+    .productCard {
+      width: 35%;
+      height: 18.5em;
+    }
+
+    .containerProductCardImage {
+      width: 100%;
+      height: 50%;
+    }
+  }
+
+  @media all and (max-width: 370px) {
+    .productCard {
+      width: 70%;
+      height: 21em;
+    }
+
+    .containerProductCardImage {
+      width: 90%;
+      height: 70%;
+    }
+  }
+
+  @media all and (max-width: 270px) {
+    .productCard {
+      height: 19em;
+    }
+
+    .containerProductCardImage {
       width: 90%;
       height: 60%;
+    }
+  }
+
+  @media all and (max-width: 230px) {
+    .productCard {
+      height: 18em;
+    }
+
+    .containerProductCardImage {
+      width: 90%;
+      height: 50%;
     }
   }

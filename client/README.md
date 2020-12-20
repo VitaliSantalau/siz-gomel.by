@@ -43,5 +43,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
-npm install gatsby-plugin-sitemap
-npm install gatsby-plugin-react-helmet react-helmet
+google search engine
+google analytics
+tag manager
+file zilla

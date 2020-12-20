@@ -46,6 +46,14 @@ body {
           align-items: center;
 }
 
+.wrapper {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
 main {
   width: 100%;
   -webkit-box-flex: 1;
@@ -55,3 +63,17 @@ main {
   display: -ms-flexbox;
   display: flex; 
 }
+
+@media all and (min-width: 1800px) {
+  .wrapper {
+    width: 90%;
+  } 
+}
+
+@media all and (min-width: 2300px) {
+  .wrapper {
+    width: 80%;
+  } 
+}
+
+

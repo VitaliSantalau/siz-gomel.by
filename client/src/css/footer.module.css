@@ -61,7 +61,7 @@ footer {
   margin-left: .5em;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 550px) {
   .contacts {
     flex-direction: column;
     align-items: center;

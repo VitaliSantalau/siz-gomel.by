@@ -29,7 +29,7 @@ const Product = ({ data }) => {
   const product = data.productJson
   return (
     <MainLayout>
-      <SEO title={product.name}/>
+      <SEO title={product.name} description={`Карточка товара ${product.name}`}/>
       <main>
         <CatalogNav />
         <section className={style.mainSection}>

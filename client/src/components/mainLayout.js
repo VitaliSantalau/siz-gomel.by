@@ -11,7 +11,9 @@ function MainLayout({ children }) {
     <div className="root">
       <Header />
       <HeaderMobile />
-      {children}
+        <div className="wrapper">
+          {children}
+        </div>
       <Footer />
     </div>
   );

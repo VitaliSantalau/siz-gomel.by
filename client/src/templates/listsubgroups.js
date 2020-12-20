@@ -44,7 +44,7 @@ const Listsubgroups = ({ data }) => {
 
   return (
     <MainLayout>
-      <SEO title={data.groupsJson.groupName}/>
+      <SEO title={data.groupsJson.groupName} description={`Список подгрупп для группы ${data.groupsJson.groupName}`}/>
       <main>
         <CatalogNav />
         <div className={style.mainSection}>

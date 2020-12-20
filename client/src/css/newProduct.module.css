@@ -76,7 +76,7 @@
   display: block;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 550px) {
   .productCard {
     min-width: 10em;
     max-width: 12em;

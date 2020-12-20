@@ -11,11 +11,11 @@ export default function HeaderMobile() {
     <header className={style.header}>
       <Link to="/">
         <div className={style.siteName}>
-          <div>gomel</div>
+          <div>GOMEL</div>
           <div>-</div>
-          <div>siz</div> 
+          <div>SIZ</div> 
           <div>.</div>
-          <div>by</div> 
+          <div>BY</div> 
         </div>
       </Link>
       <div className={style.icons}>
@@ -29,7 +29,6 @@ export default function HeaderMobile() {
           <img className={style.navIcon} src={menu} alt="menu icon" />
         </Link>
       </div>
-
     </header>
   )
 }
