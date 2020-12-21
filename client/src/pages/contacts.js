@@ -10,9 +10,9 @@ export default function indexPage() {
       
       <MainLayout>
         <SEO title="Контакты" description="контакты и реквизиты компании ООО Глобо-бел"/>
-        <main>
-          <CatalogNav />
-          <MainSection />
+        <main>  
+          <h1>Контакты</h1>
+          <h2>ООО "Глобо-бел"</h2>
           246050, г.Гомель, ул.Гагарина, 57/8, к.6
 globo_bel@mail.ru
 Пн-Пт: 09:00 - 18:00

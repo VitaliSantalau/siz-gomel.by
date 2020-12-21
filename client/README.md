@@ -46,4 +46,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 google search engine
 google analytics
 tag manager
-file zilla
+
+
+npm install gatsby-plugin-google-tagmanager
