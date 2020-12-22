@@ -1,0 +1,31 @@
+.wrapper {
+  width: 80%;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.name, .adress, .email, .timetable, .phones, .bank {
+  margin: .5em 5%;
+}
+
+.wrapper > h1 {
+  align-self: flex-start;
+  font-size: 1.4em;
+  margin: 1em;
+}
+
+p > a {
+  display: block;
+}
+
+.wrapper strong {
+  margin-right: 1em;
+}
+
+@media all and (max-width: 550px) {
+  .wrapper {
+    width: 90%;
+    font-size: 1em;
+  }
+}
