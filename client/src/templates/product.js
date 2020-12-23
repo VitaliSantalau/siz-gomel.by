@@ -13,6 +13,7 @@ export const query = graphql`
       name
       price
       image {
+        publicURL
         childImageSharp {
           fluid(fit: COVER) {
             ...GatsbyImageSharpFluid
@@ -25,11 +26,24 @@ export const query = graphql`
   }
 `
 
+
 const Product = ({ data }) => {
+  const structuredData = {
+    "@context" : "http://schema.org",
+    "@type" : "Product",
+    "name" : data.productJson.name,
+    "image" : `http://gomel-siz.by${data.productJson.image.publicURL}`,
+    "description" : data.productJson.description,
+    "offers" : {
+      "@type" : "Offer",
+      "price" : data.productJson.price
+    }
+  }
+  
   const product = data.productJson
   return (
     <MainLayout>
-      <SEO title={product.name} description={`Карточка товара ${product.name}`}/>
+      <SEO title={product.name} description={`Подробная информация о товаре ${product.name}`} jsonLD={structuredData}/>
       <main>
         <CatalogNav />
         <section className={style.mainSection}>

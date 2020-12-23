@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-export default function SEO({ title, description }) {
+export default function SEO({ title, description, jsonLD }) {
   const { site } = useStaticQuery(graphql`
     {
       site {
@@ -28,7 +28,10 @@ export default function SEO({ title, description }) {
               { name: "yandex-verification", content: "e236b1bdbd40199f" },
               { name: "robots", content: "index, follow" }
             ]}
-    >   
+    >
+      <script type="application/ld+json">
+        {JSON.stringify(jsonLD)}
+      </script>
     </Helmet> 
   )
 
