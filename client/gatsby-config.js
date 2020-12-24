@@ -8,7 +8,7 @@ module.exports = {
     keywords: "купить обувь, рабочая обувь, рабочий ботинок, спецодежда обувь, обувь спец, обувь ботинки рабочие, рабочая обувь кожа, купить рабочую обувь +в гомеле"
   },
   plugins: [
-    {
+    /*{
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-NHCJJK3",
@@ -34,7 +34,7 @@ module.exports = {
         // Defaults to gatsby-route-change
         //routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
       },
-    },
+    },*/
     "gatsby-plugin-sitemap",
     "gatsby-plugin-react-helmet",
     {

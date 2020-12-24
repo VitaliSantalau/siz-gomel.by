@@ -10,6 +10,8 @@ import CatalogNav from "../components/catalogNav"
 export const query = graphql`
   query($slug: String!) {
     productJson(slug: { eq: $slug }) {
+      id
+      slug
       name
       price
       image {
@@ -28,19 +30,25 @@ export const query = graphql`
 
 
 const Product = ({ data }) => {
+  const product = data.productJson
+  
   const structuredData = {
     "@context" : "http://schema.org",
     "@type" : "Product",
-    "name" : data.productJson.name,
-    "image" : `http://gomel-siz.by${data.productJson.image.publicURL}`,
-    "description" : data.productJson.description,
+    "sku" : product.id,
+    "name" : product.name,
+    "image" : `http://gomel-siz.by${product.image.publicURL}`,
+    "description" : product.description,
     "offers" : {
       "@type" : "Offer",
-      "price" : data.productJson.price
+      "availability": "https://schema.org/InStock",
+      "url" : `http://gomel-siz.by/${product.slug}`,
+      "price" : product.price,
+      "priceCurrency": "BYN",
     }
   }
   
-  const product = data.productJson
+  
   return (
     <MainLayout>
       <SEO title={product.name} description={`Подробная информация о товаре ${product.name}`} jsonLD={structuredData}/>
