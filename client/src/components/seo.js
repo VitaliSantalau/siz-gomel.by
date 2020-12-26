@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-export default function SEO({ title, description, jsonLD }) {
+export default function SEO({ title, description, jsonLD, pathname }) {
   const { site } = useStaticQuery(graphql`
     {
       site {
@@ -17,6 +17,7 @@ export default function SEO({ title, description, jsonLD }) {
   `)
 
   const metaDescription = description || site.siteMetadata.description
+  const canonical = pathname;
     
   return (
     <Helmet 
@@ -28,6 +29,12 @@ export default function SEO({ title, description, jsonLD }) {
               { name: "yandex-verification", content: "e236b1bdbd40199f" },
               { name: "robots", content: "index, follow" }
             ]}
+      link={[
+        {
+          rel: "canonical", 
+          href: canonical,
+        }
+      ]}
     >
       <script type="application/ld+json">
         {JSON.stringify(jsonLD)}

@@ -1,19 +1,53 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import { Link } from "gatsby";
 
 import style from "../css/catalogNav.module.css";
-import workShoesIcon from "../icons/footWhite.png";
-import workClothesIcon from "../icons/clothesWhite.png";
-import siz from "../icons/sizWhite.png";
-import medical from "../icons/medicalWhite.png";
 
 export default function CatalogNav() {
+  const data = useStaticQuery(graphql`
+  {
+    workShoesIcon: file(relativePath: {eq: "images/footWhite.png"}) {
+      childImageSharp {
+        fluid(fit: COVER) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    workClothesIcon: file(relativePath: {eq: "images/clothesWhite.png"}) {
+      childImageSharp {
+        fluid(fit: COVER) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    siz: file(relativePath: {eq: "images/sizWhite.png"}) {
+      childImageSharp {
+        fluid(fit: COVER) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    medical: file(relativePath: {eq: "images/medicalWhite.png"}) {
+      childImageSharp {
+        fluid(fit: COVER) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`)
+
   return (   
     <nav className={style.nav}>
       <h2 className={style.wordCATALOG}>КАТАЛОГ</h2>  
       <div className={style.containerGroupSubgroup}>
         <Link to="/work-shoes/" className={style.group}>
-          <img className={style.groupIcon} src={workShoesIcon} alt="work shoes icon" />
+          <Img className={style.groupIcon}
+            fluid={data.workShoesIcon.childImageSharp.fluid}
+            alt="work shoes icon"
+          />
           <div className={style.groupText}>Рабочая обувь</div>
         </Link>
         <div className={style.containerSubgroup}>
@@ -27,7 +61,10 @@ export default function CatalogNav() {
       </div>
       <div className={style.containerGroupSubgroup}>
         <Link to="/work-clothes/" className={style.group} activeClassName={style.activeGroup}>
-          <img className={style.groupIcon}  src={workClothesIcon} alt="work clothes icon"/>
+          <Img className={style.groupIcon}
+            fluid={data.workClothesIcon.childImageSharp.fluid}
+            alt="work clothes icon"
+          />      
           <div className={style.groupText}>Спецодежда</div>
         </Link>
         <div className={style.containerSubgroup}>
@@ -41,7 +78,10 @@ export default function CatalogNav() {
       </div>
       <div className={style.containerGroupSubgroup}>
         <Link to="/personal-protective-equipment/" className={style.group} activeClassName={style.activeGroup}>
-          <img className={style.groupIcon}  src={siz} alt="personal protective equipment icon"/>
+          <Img className={style.groupIcon}
+            fluid={data.siz.childImageSharp.fluid}
+            alt="personal protective equipment icon"
+          />
           <div className={style.groupText}>Средства защиты</div>
         </Link>
         <div className={style.containerSubgroup}>
@@ -55,7 +95,10 @@ export default function CatalogNav() {
       </div>
       <div className={style.containerGroupSubgroup}>
         <Link to="/medical-protection/" className={style.group} activeClassName={style.activeGroup}>
-          <img className={style.groupIcon} src={medical} alt="medical protection icon"/>
+          <Img className={style.groupIcon}
+            fluid={data.medical.childImageSharp.fluid}
+            alt="medical protection icon"
+          />
           <div className={style.groupText}>Медицинские СИЗ</div>
         </Link>
         <div className={style.containerSubgroup}>

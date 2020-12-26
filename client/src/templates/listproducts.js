@@ -11,13 +11,14 @@ export const query = graphql`
   query($slug: String!) {
     productsJson(slug: { eq: $slug }) {
       subgroupName
+      slug
       listproducts {
         name
         slug
         image {
           childImageSharp {
             fluid(fit: COVER) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -54,7 +55,11 @@ const Listproducts = ({ data }) => {
 
   return (
     <MainLayout>
-      <SEO title={data.productsJson.subgroupName} description={`Список товаров для подраздела ${data.productsJson.subgroupName}`}/>
+      <SEO 
+        title={data.productsJson.subgroupName} 
+        description={`Список товаров для подраздела ${data.productsJson.subgroupName}`}
+        pathname={`http://gomel-siz.by/${data.productsJson.slug}`}
+      />
       <main>
         <CatalogNav />
         <div className={style.mainSection}>

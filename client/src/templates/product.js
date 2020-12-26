@@ -18,7 +18,8 @@ export const query = graphql`
         publicURL
         childImageSharp {
           fluid(fit: COVER) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
+
           }
         }
       }
@@ -27,7 +28,6 @@ export const query = graphql`
     }
   }
 `
-
 
 const Product = ({ data }) => {
   const product = data.productJson
@@ -51,7 +51,12 @@ const Product = ({ data }) => {
   
   return (
     <MainLayout>
-      <SEO title={product.name} description={`Подробная информация о товаре ${product.name}`} jsonLD={structuredData}/>
+      <SEO 
+        title={product.name} 
+        description={`Подробная информация о товаре ${product.name}`} 
+        jsonLD={structuredData}
+        pathname={`http://gomel-siz.by/${product.slug}`}
+      />
       <main>
         <CatalogNav />
         <section className={style.mainSection}>

@@ -1,16 +1,32 @@
 import React from "react";
 import { Link } from "gatsby";
-
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import style from "../css/header.module.css";
 import PageNav from "./pageNav";
-import Globe from "../icons/globe.png"
+
 
 export default function Header() {
+  const data = useStaticQuery(graphql`
+  {
+    file(relativePath: {eq: "images/globe.png"}) {
+      childImageSharp {
+        fluid(fit: COVER) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`)
+  
   return (
     <header className={style.header}>
       <div className={style.firstLevel}>
         <Link to="/" className={style.logo}>
-          <img className={style.iconLogo} src={Globe} alt="this is the logo it is a globe" />
+          <Img className={style.iconLogo}
+            fluid={data.file.childImageSharp.fluid}
+            alt="this is the logo it is a globe"
+          />
           <div className={style.textLogo}>
             <div className={style.siteName}>
               <div>GOMEL</div>

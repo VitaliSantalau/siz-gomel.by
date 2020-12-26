@@ -11,13 +11,14 @@ export const query = graphql`
   query($slug: String!) {
     groupsJson(slug: { eq: $slug }) {
       groupName
+      slug
       subgroup {
         subgroupName
         slug
         image {
           childImageSharp {
             fluid(fit: COVER) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -44,7 +45,11 @@ const Listsubgroups = ({ data }) => {
 
   return (
     <MainLayout>
-      <SEO title={data.groupsJson.groupName} description={`Список подгрупп для группы ${data.groupsJson.groupName}`}/>
+      <SEO 
+        title={data.groupsJson.groupName} 
+        description={`Список подгрупп для группы ${data.groupsJson.groupName}`}
+        pathname={`http://gomel-siz.by/${data.groupsJson.slug}`}
+      />
       <main>
         <CatalogNav />
         <div className={style.mainSection}>

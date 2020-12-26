@@ -12,21 +12,21 @@ export default function Info() {
       photo1: file(relativePath: {eq: "images/masked-man-with-beard.png"}) {
         childImageSharp {
           fluid(fit: COVER) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       photo2: file(relativePath: {eq: "images/masked-man-without-beard.png"}) {
         childImageSharp {
           fluid(fit: COVER) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       photo3: file(relativePath: {eq: "images/masked-man-with-half-beard.png"}) {
         childImageSharp {
           fluid(fit: COVER) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

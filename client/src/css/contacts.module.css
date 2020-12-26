@@ -1,5 +1,6 @@
 .wrapper {
   width: 80%;
+  min-height: 120vh;
   font-size: 1.2em;
   display: flex;
   flex-direction: column;

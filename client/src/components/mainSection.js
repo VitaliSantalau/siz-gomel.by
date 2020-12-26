@@ -19,7 +19,7 @@ export default function MainSection() {
           image {
             childImageSharp {
               fluid(fit: COVER) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
