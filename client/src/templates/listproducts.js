@@ -58,7 +58,6 @@ const Listproducts = ({ data }) => {
       <SEO 
         title={data.productsJson.subgroupName} 
         description={`Список товаров для подраздела ${data.productsJson.subgroupName}`}
-        pathname={`http://gomel-siz.by/${data.productsJson.slug}`}
       />
       <main>
         <CatalogNav />

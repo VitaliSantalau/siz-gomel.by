@@ -19,7 +19,6 @@ export const query = graphql`
         childImageSharp {
           fluid(fit: COVER) {
             ...GatsbyImageSharpFluid_withWebp
-
           }
         }
       }
@@ -55,7 +54,7 @@ const Product = ({ data }) => {
         title={product.name} 
         description={`Подробная информация о товаре ${product.name}`} 
         jsonLD={structuredData}
-        pathname={`http://gomel-siz.by/${product.slug}`}
+        pathname={`/${product.slug}`}
       />
       <main>
         <CatalogNav />

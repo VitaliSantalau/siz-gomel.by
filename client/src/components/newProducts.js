@@ -18,7 +18,7 @@ export default function NewProducts() {
           image {
             childImageSharp {
               fluid(fit: COVER) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }

@@ -48,7 +48,6 @@ const Listsubgroups = ({ data }) => {
       <SEO 
         title={data.groupsJson.groupName} 
         description={`Список подгрупп для группы ${data.groupsJson.groupName}`}
-        pathname={`http://gomel-siz.by/${data.groupsJson.slug}`}
       />
       <main>
         <CatalogNav />

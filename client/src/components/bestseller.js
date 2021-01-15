@@ -18,7 +18,7 @@ export default function Bestseller() {
           image {
             childImageSharp {
               fluid(fit: COVER) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -27,8 +27,7 @@ export default function Bestseller() {
       }
     }
   }
-  `)
-
+`)
   
   const listBestseller = data.allBestsellerJson.edges.map(edge => {
     const item = edge.node;
