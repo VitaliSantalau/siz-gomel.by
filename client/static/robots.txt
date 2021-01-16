@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://gomel-siz.by/sitemap.xml

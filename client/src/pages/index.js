@@ -6,11 +6,13 @@ import MainSection from '../components/mainSection'
 
 
 export default function indexPage() {
-  
+
   return (
-    
     <MainLayout>
-      <SEO title="Рабочая обувь, спецодежда, средства индивидуальной защиты, в том числе медицинские СИЗ"/>
+      <SEO 
+        title="Рабочая обувь, спецодежда, средства индивидуальной защиты, в том числе медицинские СИЗ"
+        pathname="/"
+      />
       <main>
         <CatalogNav />
         <MainSection />

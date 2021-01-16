@@ -17,24 +17,19 @@ export default function SEO({ title, description, jsonLD, pathname }) {
   `)
 
   const metaDescription = description || site.siteMetadata.description
-  const canonical = pathname;
+  const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
     
   return (
     <Helmet 
       htmlAttributes={{ lang: "ru" }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={ canonical ? [ { rel: "canonical", href: canonical} ] : [] }
       meta={[ { name: "description", content: metaDescription },
               { name: "keywords", content: site.siteMetadata.keywords },
               { name: "yandex-verification", content: "e236b1bdbd40199f" },
               { name: "robots", content: "index, follow" }
             ]}
-      link={[
-        {
-          rel: "canonical", 
-          href: canonical,
-        }
-      ]}
     >
       <script type="application/ld+json">
         {JSON.stringify(jsonLD)}

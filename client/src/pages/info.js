@@ -35,7 +35,11 @@ export default function Info() {
 
   return (
     <MainLayout>
-      <SEO title="Информация" description="эффективность использования противоаэрозольной маски"/>
+      <SEO 
+        title="Информация" 
+        description="эффективность использования противоаэрозольной маски"
+        pathname="/info"
+      />
       <main>
         <div className={style.wrapper}>
           <h1>Влияние небритости лица человека, на эффективность использования противоаэрозольной маски</h1>

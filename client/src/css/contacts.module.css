@@ -16,8 +16,9 @@
   margin: 1em;
 }
 
-p > a {
-  display: block;
+.phones {
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper strong {

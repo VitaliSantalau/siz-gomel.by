@@ -23,7 +23,7 @@ html {
 body {
   width: 100%;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /*-moz-osx-font-smoothing: grayscale;*/
   -webkit-font-kerning: normal;
           font-kerning: normal;
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -75,5 +75,3 @@ main {
     width: 80%;
   } 
 }
-
-
