@@ -6,7 +6,6 @@ import MainLayout from "../components/mainLayout"
 import SEO from "../components/seo"
 import CatalogNav from "../components/catalogNav"
 
-
 export const query = graphql`
   query($slug: String!) {
     productsJson(slug: { eq: $slug }) {

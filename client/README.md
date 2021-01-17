@@ -45,3 +45,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 npm install postcss gatsby-plugin-postcss
 npm install postcss-cli autoprefixer
+
+yarn add intersection-observer

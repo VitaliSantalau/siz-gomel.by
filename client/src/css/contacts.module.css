@@ -6,6 +6,7 @@
 */
 .wrapper {
   width: 80%;
+  min-height: 100%;
   min-height: 120vh;
   font-size: 1.2em;
   display: -webkit-flex;

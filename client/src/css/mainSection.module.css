@@ -11,6 +11,7 @@
               -ms-flex-positive: 1;
           flex-grow: 1;
   width: 70%;
+  /*height: 100%;*/
   display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,8 +109,8 @@
 
 .textMainPage> * {
   text-align: justify;
-  text-align:-moz-center;
-  text-align:-webkit-center;
+  text-align:-moz-justify;
+  text-align:-webkit-justify;
   text-indent: 1.6em;
   line-height: 1.4em;
   margin-bottom: 1.6em;
