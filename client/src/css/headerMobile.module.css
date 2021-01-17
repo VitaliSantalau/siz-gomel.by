@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%,last 2 version,Safari >=7,IOS >=6
+*/
+
 @media all and (min-width: 550px) {
   .header {
     display: none;
@@ -8,9 +15,18 @@
   .header {
     width: 100%;
     min-height: 5.5em;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+            align-items: center;
     padding: .1em .5em;
     border-top: 1.4em solid #275fb8;
     border-bottom: .7em solid #275fb8;
@@ -19,13 +35,25 @@
   .siteName {
     font-size: 1.5em;
     font-weight: 700;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
   .icons {
-    flex-grow: 1;
+    -webkit-flex-grow: 1;
+            -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+            flex-grow: 1;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-justify-content: space-evenly;
+            -webkit-box-pack: space-evenly;
+                -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 
   .navIcon {
@@ -42,14 +70,23 @@
 
 @media all and (max-width: 320px) {
   .header {
-    flex-direction: column;
-    align-items: stretch;
+    -webkit-flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: stretch;
+            -webkit-box-align: stretch;
+                -ms-flex-align: stretch;
+            align-items: stretch;
     min-height: 6em;
     overflow: hidden;
   }
 
   .siteName {
-    align-self: flex-start;
+    -webkit-align-self: flex-start;
+            -ms-flex-item-align: start;
+        align-self: flex-start;
   }
 
   .icons {  

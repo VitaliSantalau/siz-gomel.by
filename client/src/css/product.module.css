@@ -1,15 +1,30 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%,last 2 version,Safari >=7,IOS >=6
+*/
+
 .mainSection {
   width: 70%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .product {
   width: 100%;
+  display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 2em 1em;
 }
 
@@ -26,18 +41,27 @@
 
 .descriptionProduct {
   width: 40%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .descriptionPriceProduct {
   font-size: 1.4em;
+  display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
           flex-direction: column;
   margin: 1rem 5rem;
 }
@@ -48,16 +72,26 @@
 
 .text {
   font-size: 1.2em;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
   border-bottom: 1px solid gray;
 }
 
 .descriptionProduct > div, .text > div {
+  display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
@@ -66,8 +100,14 @@
 } 
 
 .priceNds {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
+  -webkit-align-items: baseline;
+          -webkit-box-align: baseline;
+              -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .price {
@@ -77,7 +117,11 @@
 
 @media all and (max-width: 1200px) {
   .product {
-    flex-direction: column;
+    -webkit-flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .containerImage {
@@ -94,14 +138,26 @@
   .mainSection {
     width: 100%;
     min-height: 150vh;
-    flex-direction: column;
+    -webkit-flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .product {
     width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-justify-content: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: flex-start;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+            align-items: flex-start;
     margin: 0;
   }
 
@@ -119,6 +175,8 @@
   .descriptionProduct > h2 {
     font-size: 1.3em;
     text-align: center;
+    text-align:-moz-center;
+    text-align:-webkit-center;
   }
 }
 

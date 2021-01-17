@@ -1,134 +1,213 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%,last 2 version,Safari >=7,IOS >=6
+*/
+
 .mainSection {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 70%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainSection > h1 {
+  font-size: 1.6em;
+  text-align: center;
+  text-align:-moz-center;
+  text-align:-webkit-center;
+  margin: .5em .5em;
+}
+
+.listSubGroups {
+  width: 100%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+
+.subGroup {
+  width: 13em;
+  height: 16em;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+          align-items: center;
+  padding: .5em;
+  margin: 1em;
+  border: 1px solid grey;
+  border-radius: .5em;
+  overflow: hidden;
+}
+
+.subGroup:hover {
+  border: 1px solid;
+}
+
+.containerSubGroupImage {
+  width: 100%;
+  height: 90%;
+}
+
+.containerSubGroupNamePrice {
+  -webkit-align-self: stretch;
+          -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -webkit-flex-grow: 1;
+          -webkit-box-flex: 1;
+              -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-between;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+          align-items: center;
+}
+
+.subGroupName {
+  font-size: 1.1em;
+  text-align: center;
+  text-align:-moz-center;
+  text-align:-webkit-center;
+}
+
+.containerPriceDetails {
+  -webkit-align-self: stretch;
+          -ms-flex-item-align: stretch;
+      align-self: stretch;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: flex-end;
+          -webkit-box-align: end;
+              -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.containerPriceNds {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+          -webkit-box-align: end;
+              -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.subgroupPrice {
+  -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.nds {
+  font-size: .8em;
+}
+
+.details {
+  display: none;
+  font-size: .8em;
+  color: #FF3333;
+}
+
+.subgroup:hover>.containerSubGroupNamePrice>.containerPriceDetails>.details {
+  display: block;
+}
+
+@media all and (max-width: 550px) {
+  .mainSection {
+    width: 100%;
+    min-height: 150vh;
   }
-  
+
   .mainSection > h1 {
-    font-size: 1.6em;
-    text-align: center;
-    margin: .5em .5em;
+    font-size: 1.2em;
   }
 
   .listSubGroups {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 2em;
+    -webkit-justify-content: space-evenly;
+            -webkit-box-pack: space-evenly;
+                -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
-  
+
   .subGroup {
-    width: 13em;
+    width: 40%;
+    height: 17em;
+    margin: .5em;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .subGroup {
+    height: 14em;
+  }
+}
+
+@media all and (max-width: 355px) {
+  .subGroup {
+    width: 70%;
+    height: 18em;
+  }
+}
+
+@media all and (max-width: 300px) {
+  .subGroup {
     height: 16em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: .5em;
-    margin: 1em;
-    border: 1px solid grey;
-    border-radius: .5em;
-    overflow: hidden;
   }
-  
-  .subGroup:hover {
-    border: 1px solid;
-  }
-  
-  .containerSubGroupImage {
-    width: 100%;
-    height: 90%;
-  }
-  
-  .containerSubGroupNamePrice {
-    align-self: stretch;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .subGroupName {
-    font-size: 1.1em;
-    text-align: center;
-  }
-  
-  .containerPriceDetails {
-    align-self: stretch;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  
-  .containerPriceNds {
-    display: flex;
-    align-items: flex-end;
-  }
-  
-  .subgroupPrice {
-    align-self: flex-start;
-    font-size: 1.3em;
-    font-weight: 600;
-  }
-  
-  .nds {
-    font-size: .8em;
-  }
-  
-  .details {
-    display: none;
-    font-size: .8em;
-    color: #FF3333;
-  }
-  
-  .subgroup:hover>.containerSubGroupNamePrice>.containerPriceDetails>.details {
-    display: block;
-  }
-  
-  @media all and (max-width: 550px) {
-    .mainSection {
-      width: 100%;
-      min-height: 150vh;
-    }
+}
 
-    .mainSection > h1 {
-      font-size: 1.2em;
-    }
-
-    .listSubGroups {
-      justify-content: space-evenly;
-    }
-
-    .subGroup {
-      width: 40%;
-      height: 17em;
-      margin: .5em;
-    }
+@media all and (max-width: 230px) {
+  .subGroup {
+    height: 13em;
   }
-
-  @media all and (max-width: 450px) {
-    .subGroup {
-      height: 14em;
-    }
-  }
-
-  @media all and (max-width: 355px) {
-    .subGroup {
-      width: 70%;
-      height: 18em;
-    }
-  }
-
-  @media all and (max-width: 300px) {
-    .subGroup {
-      height: 16em;
-    }
-  }
-
-  @media all and (max-width: 230px) {
-    .subGroup {
-      height: 13em;
-    }
-  }
+}

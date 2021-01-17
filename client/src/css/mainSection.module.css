@@ -1,14 +1,36 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%,last 2 version,Safari >=7,IOS >=6
+*/
+
 .mainSection {
-  flex-grow: 1;
+  -webkit-flex-grow: 1;
+          -webkit-box-flex: 1;
+              -ms-flex-positive: 1;
+          flex-grow: 1;
   width: 70%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+          align-items: center;
 }
 
 .mainSection > h1 {
   font-size: 1.6em;
   text-align: center;
+  text-align:-moz-center;
+  text-align:-webkit-center;
   margin: .5em .5em;
 }
 
@@ -23,19 +45,40 @@
 
 .listGroups {
   width: 100%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
+  -webkit-justify-content: space-evenly;
+          -webkit-box-pack: space-evenly;
+              -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 2em;
 }
 
 .group {
   width: 20%;
   height: 100%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+          align-items: center;
   padding: .3em;
   border: 1px solid grey;
   border-radius: .5em;
@@ -54,6 +97,8 @@
 .groupName {
   font-size: 1.2em;
   text-align: center;
+  text-align:-moz-center;
+  text-align:-webkit-center;
   margin-top: .5em;
 }
 
@@ -63,6 +108,8 @@
 
 .textMainPage> * {
   text-align: justify;
+  text-align:-moz-center;
+  text-align:-webkit-center;
   text-indent: 1.6em;
   line-height: 1.4em;
   margin-bottom: 1.6em;
@@ -116,32 +163,65 @@
 @media all and (max-width: 550px) {
   .mainSection {
     width: 100%;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+            align-items: center;
   }
 
   .mainSection > h1 {
     font-size: 1em;
     text-align: center;
+    text-align:-moz-center;
+    text-align:-webkit-center;
     margin: .5em .5em;
   }
 
   .listGroups {
     width: 100%;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    -webkit-align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-evenly;
+            -webkit-box-pack: space-evenly;
+                -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-bottom: 2em;
   }
 
   .group {
     width: 40%;
     height: 18em;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+            align-items: center;
     padding: .2em;
     margin: .5em;
     border: 1px solid grey;
@@ -158,6 +238,8 @@
   .groupName {
     font-size: .9em;
     text-align: center;
+    text-align:-moz-center;
+    text-align:-webkit-center;
   }
 }
 
@@ -186,5 +268,7 @@
   .groupName {
     font-size: .9em;
     text-align: center;
+    text-align:-moz-center;
+    text-align:-webkit-center;
   }
 }

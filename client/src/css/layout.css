@@ -1,15 +1,15 @@
 /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%,last 2 version,Safari >=7,IOS >=6
+*/
+
+/*
 #FF3333 - red
 #275fb8 - blue from globe
 #000000 - black
 #ffffff - white
-*/
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
 */
 
 html {
@@ -23,42 +23,55 @@ html {
 body {
   width: 100%;
   -webkit-font-smoothing: antialiased;
-  /*-moz-osx-font-smoothing: grayscale;*/
   -webkit-font-kerning: normal;
           font-kerning: normal;
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
+          font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
 .root {
   width: 100%;
   height: 100vh;
+  display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
           align-items: center;
 }
 
 .wrapper {
-  flex-grow: 1;
+  -webkit-flex-grow: 1;
+          -webkit-box-flex: 1;
+              -ms-flex-positive: 1;
+          flex-grow: 1;
   width: 100%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-justify-content: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+          justify-content: center;
 
 }
 
 main {
   width: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
+  -webkit-flex-grow: 1;
+          -webkit-box-flex: 1;
+              -ms-flex-positive: 1;
           flex-grow: 1;
+  display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; 

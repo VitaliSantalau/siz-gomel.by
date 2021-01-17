@@ -1,8 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%,last 2 version,Safari >=7,IOS >=6
+*/
+
 .main {
   width: 100%;
   height: 70%;
   margin: 10% auto 10% auto;
   text-align: center;
+  text-align:-moz-center;
+  text-align:-webkit-center;
 }
 
 .main >* {

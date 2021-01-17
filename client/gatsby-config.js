@@ -1,5 +1,8 @@
 /* https://www.gatsbyjs.com/docs/gatsby-config/ */
 
+const autoprefixer = require("autoprefixer");
+const browserslist = require('browserslist');
+
 module.exports = {
   siteMetadata: {
     title: "gomel-siz.by",
@@ -46,6 +49,13 @@ module.exports = {
     "gatsby-transformer-json",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
-    "gatsby-plugin-postcss",
+    /*{
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [
+          autoprefixer({ browsers: browserslist() }),
+        ],
+      },
+    },*/
   ],
 }

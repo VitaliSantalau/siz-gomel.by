@@ -1,55 +1,75 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%,last 2 version,Safari >=7,IOS >=6
+*/
+
 .nav {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    margin: 2em 1em 2em 0;
-  }
-  
-  .wordCATALOG {
-    padding-left: 10%;
-    margin-bottom: 5%;
-  }
-  
-  .containerGroupSubgroup {
-    margin-bottom: 1em;
-  }
-  
-  .group {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    font-size: 1.3em;
-    color: #f5f8f9;
-    background-color: rgba(39, 95, 184, .9);
-    border-top-right-radius: 1.3em;
-    border-bottom-right-radius: 1.3em;
-  }
-  
-  .groupIcon {
-    height: 1.4em;
-    width: 1.4em;
-    margin: 1% 5% 1% 10%;
-  }
-  
-  .containerSubgroup {
-    
-  }
-  
-  .subgroup {
-    font-size: 1.2em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    align-items: center;
-    margin: .5rem 0;
-    padding-left: 15%;
-    color: #000000;
-  }
-  
-  .subgroup:hover {
-    color: #FF3333;
-  }
-  
-  .activeSubGroup {
-    color: #FF3333;
-  }
+  width: 90%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em 1em 2em 0;
+}
+
+.wordCATALOG {
+  padding-left: 10%;
+  margin-bottom: 5%;
+}
+
+.containerGroupSubgroup {
+  margin-bottom: 1em;
+}
+
+.group {
+  width: 100%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3em;
+  color: #f5f8f9;
+  background-color: rgba(39, 95, 184, .9);
+  border-top-right-radius: 1.3em;
+  border-bottom-right-radius: 1.3em;
+}
+
+.groupIcon {
+  height: 1.4em;
+  width: 1.4em;
+  margin: 1% 5% 1% 10%;
+}
+
+.subgroup {
+  font-size: 1.2em;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+          align-items: center;
+  margin: .5rem 0;
+  padding-left: 15%;
+  color: #000000;
+}
+
+.subgroup:hover {
+  color: #FF3333;
+}
+
+.activeSubGroup {
+  color: #FF3333;
+}

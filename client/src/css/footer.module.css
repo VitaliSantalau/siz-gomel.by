@@ -1,17 +1,42 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%,last 2 version,Safari >=7,IOS >=6
+*/
 footer {
   width: 100%;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: stretch;
+          -webkit-box-align: stretch;
+              -ms-flex-align: stretch;
+          align-items: stretch;
   padding: 1em 0;
 }
 
 .contacts {
   width: 100%;
-  align-self: flex-start;
+  -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 1em 0 0 0;
   color: #f5f8f9;
   background-color: #275fb8;
@@ -22,10 +47,23 @@ footer {
 }
 
 .addresses {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: flex-start;
+          -webkit-box-pack: start;
+              -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-items: flex-start;
+          -webkit-box-align: start;
+              -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .address {
@@ -37,8 +75,15 @@ footer {
 }
 
 .timeTable {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .timeTable>* {
@@ -46,9 +91,19 @@ footer {
 }
 
 .phones {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-between;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .phone {
@@ -63,17 +118,28 @@ footer {
 
 @media all and (max-width: 550px) {
   .contacts {
-    flex-direction: column;
-    align-items: center;
+    -webkit-flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+            align-items: center;
   }
 
   .addresses {
-    align-self: flex-start;
+    -webkit-align-self: flex-start;
+            -ms-flex-item-align: start;
+        align-self: flex-start;
     margin-left: .5em;
   }
 
   .timeTable {
-    align-self: flex-end;
+    -webkit-align-self: flex-end;
+            -ms-flex-item-align: end;
+        align-self: flex-end;
     margin-right: .5em;
   }
 }
