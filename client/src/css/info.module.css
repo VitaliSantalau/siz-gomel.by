@@ -36,8 +36,8 @@
 .wrapper > p {
   font-size: 1.1em;
   text-align: justify;
-  text-align:-moz-center;
-  text-align:-webkit-center;
+  text-align:-moz-justify;
+  text-align:-webkit-justify;
   margin-bottom: 1em;
 }
 

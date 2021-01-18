@@ -7,6 +7,7 @@
 
 .mainSection {
   width: 70%;
+  height: 100%;
   display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
