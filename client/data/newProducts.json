@@ -1,24 +1,37 @@
 [
   {
-    "name": "Плащ желтый влагозащитный со светоотражающими полосами",
-    "slug": "work-clothes-waterproof-clothes-cloak-yellow",
-    "price": "20.50", 
-    "image": "images/work-clothes-waterproof-clothes-cloak-yellow.png",
-    "alt": "work clothes waterproof clothes cloak yellow"    
+    "name": "Полукомбинезон мужской утепленный",
+    "slug": "work-clothes-winter-clothes-bibpant-insulated-male",
+    "price": "25.80", 
+    "image": "images/work-clothes-winter-clothes-bibpant-insulated-male.png",
+    "alt": "work clothes winter clothes bibpant insulated male"    
   },
   {
-    "name": "Бейсболка",
-    "slug": "personal-protective-equipment-head-protection-baseball-cap",
-    "price": "2.70", 
-    "image": "images/personal-protective-equipment-head-protection-baseball-cap.png",
-    "alt": "personal protective equipment head protection baseball cap"    
+    "name": "Брюки мужские утепленные",
+    "slug": "work-clothes-winter-clothes-pants-insulated-male",
+    "price": "22.10", 
+    "image": "images/work-clothes-winter-clothes-pants-insulated-male.png",
+    "alt": "work clothes winter clothes pants insulated male"    
   },
   {
-    "name": "Полумаска противоаэрозольная \"ИСТОК-1СК\" FFP1",
-    "slug": "medical-protection-mask-istokFFP",
-    "price": "2.50", 
-    "image": "images/medical-protection-mask-istokFFP.png",
-    "alt": "medical protection mask istokFFP",
-    "description": "<div><strong>Материал:</strong><div>фильтрующий материал</div></div><div>Особенности:</div><div> - легко приспосабливается к любому типу и форме лица</div><div> - высокое качество используемых материалов</div><div> - увеличенная поверхность фильтрации и фильтрующий материал нового поколения уменьшают сопротивление дыханию</div><div> - широкий угол обзора</div><div> - наилучшая совместимость с очками и другими средствами защиты</div><div> - ультразвуковая сварка швов</div><div> - клапан выдоха облегчает дыхание и эффективно отводит влагу и тепло из подмасочного пространства</div><div> - защита от всех видов аэрозолей (пыль, дым, туман) при их концентрации до 4 ПДК</div>"        
+    "name": "Костюм сварщика брезентовый",
+    "slug": "work-clothes-welder-clothes-costume-tarpaulin",
+    "price": "36.80", 
+    "image": "images/work-clothes-welder-clothes-costume-tarpaulin.png",
+    "alt": "work clothes welder clothes costume tarpaulin"    
+  },
+  {
+    "name": "Открытые защитные очки \"Классик\"",
+    "slug": "personal-protective-equipment-eye-protection-glasses-classic",
+    "price": "1.70", 
+    "image": "images/personal-protective-equipment-eye-protection-glasses-classic.png",
+    "alt": "personal protective equipment eye protection glasses classic"    
+  },
+  {
+    "name": "Подшлемник утепленный",
+    "slug": "personal-protective-equipment-head-protection-balaclava-insulated",
+    "price": "4.30", 
+    "image": "images/personal-protective-equipment-head-protection-balaclava-insulated.png",
+    "alt": "personal protective equipment head protection balaclava insulated"    
   }
 ]

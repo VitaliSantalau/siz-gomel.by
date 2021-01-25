@@ -1,12 +1,5 @@
 [
   {
-    "name": "Ботинки \"Комфорт\"",
-    "slug": "work-shoes-boots-komfort",
-    "price": "29.00", 
-    "image": "images/work-shoes-boots-comfort.png",
-    "alt": "work shoes boots comfort"    
-  },
-  {
     "name": "Ботинки \"Комфорт\" утепленные",
     "slug": "work-shoes-boots-komfort-insulated",
     "price": "37.40", 
@@ -14,31 +7,38 @@
     "alt": "work shoes boots comfort insulated"    
   },
   {
-    "name": "Ботинки \"Комфорт\" с металлическим подноском",
-    "slug": "work-shoes-boots-komfort-metal-toe",
-    "price": "33.90", 
-    "image": "images/work-shoes-boots-comfort.png",
-    "alt": "work shoes boots comfort with metal toe"    
+    "name": "Берцы \"Мастер\" утепленные",
+    "slug": "work-shoes-berts-master-insulated",
+    "price": "35.40", 
+    "image": "images/work-shoes-berts-master.png",
+    "alt": "work shoes berts master insulated"    
   },
   {
-    "name": "Ботинки \"Комфорт\" утепленные с металлическим подноском",
-    "slug": "work-shoes-boots-komfort-insulated-metal-toe",
-    "price": "41.20", 
-    "image": "images/work-shoes-boots-comfort-insulated.png",
-    "alt": "work shoes boots comfort insulated  with metal toe"    
+    "name": "Ботинки \"Мастер\" утепленные",
+    "slug": "work-shoes-boots-master-insulated",
+    "price": "25.40", 
+    "image": "images/work-shoes-boots-master-insulated.png",
+    "alt": "work shoes boots master insulated"    
   },
   {
-    "name": "Сапоги \"Мастер\"",
-    "slug": "work-shoes-highboots-master",
-    "price": "31.10", 
+    "name": "Ботинки \"Профи\" утепленные",
+    "slug": "work-shoes-boots-profi-insulated",
+    "price": "27.00", 
+    "image": "images/work-shoes-boots-profi-insulated.png",
+    "alt": "work shoes boots profi insulated"    
+  },
+  {
+    "name": "Сапоги \"Мастер\" утепленные",
+    "slug": "work-shoes-highboots-master-insulated",
+    "price": "34.40", 
     "image": "images/work-shoes-highboots-master.png",
-    "alt": "work shoes highboots master"    
+    "alt": "work shoes highboots master insulated"    
   },
   {
-    "name": "Куртка мужская \"Бригадир\"",
-    "slug": "work-clothes-winter-clothes-jacket-insulated-brigadir",
-    "price": "26.70", 
-    "image": "images/work-clothes-winter-clothes-jacket-insulated-brigadir.png",
-    "alt": "work clothes winter clothes jacket insulated brigadir"    
+    "name": "Сапоги \"Профи\" утепленные",
+    "slug": "work-shoes-highboots-profi-insulated",
+    "price": "36.40", 
+    "image": "images/work-shoes-highboots-profi.png",
+    "alt": "work shoes highboots profi insulated"    
   }
 ]

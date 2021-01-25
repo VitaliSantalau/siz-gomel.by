@@ -266,49 +266,49 @@
       {
         "name": "Куртка мужская \"Бригадир\"",
         "slug": "work-clothes-winter-clothes-jacket-insulated-brigadir",
-        "price": "26.70", 
+        "price": "29.40", 
         "image": "images/work-clothes-winter-clothes-jacket-insulated-brigadir.png",
         "alt": "work clothes winter clothes jacket insulated brigadir"    
       },
       {
         "name": "Куртка утепленная женская \"Онега\"",
         "slug": "work-clothes-winter-clothes-jacket-insulated-female-onega",
-        "price": "44.90", 
+        "price": "49.40", 
         "image": "images/work-clothes-winter-clothes-jacket-insulated-female-onega.png",
         "alt": "work clothes winter clothes jacket insulated female onega"    
       },
       {
         "name": "Полукомбинезон мужской утепленный",
         "slug": "work-clothes-winter-clothes-bibpant-insulated-male",
-        "price": "23.45", 
+        "price": "25.80", 
         "image": "images/work-clothes-winter-clothes-bibpant-insulated-male.png",
         "alt": "work clothes winter clothes bibpant insulated male"    
       },
       {
         "name": "Брюки мужские утепленные",
         "slug": "work-clothes-winter-clothes-pants-insulated-male",
-        "price": "20.10", 
+        "price": "22.10", 
         "image": "images/work-clothes-winter-clothes-pants-insulated-male.png",
         "alt": "work clothes winter clothes pants insulated male"    
       },
       {
         "name": "Жилет мужской утепленный \"Бренд\"",
         "slug": "work-clothes-winter-clothes-vest-insulated-male-brend",
-        "price": "31.80", 
+        "price": "35.00", 
         "image": "images/work-clothes-winter-clothes-vest-insulated-male-brend.png",
         "alt": "work clothes winter clothes vest insulated male brend"    
       },
       {
         "name": "Костюм мужской утепленный \"Бренд\"",
         "slug": "work-clothes-winter-clothes-costume-insulated-male-brend",
-        "price": "174.90", 
+        "price": "192.40", 
         "image": "images/work-clothes-winter-clothes-costume-insulated-male-brend.png",
         "alt": "work clothes winter clothes costume insulated male brend"    
       },
       {
         "name": "Костюм женский утепленный \"Зима\"",
         "slug": "work-clothes-winter-clothes-costume-insulated-female-zima",
-        "price": "93.80", 
+        "price": "103.20", 
         "image": "images/work-clothes-winter-clothes-costume-insulated-female-zima.png",
         "alt": "work clothes winter clothes costume insulated female zima"    
       }
@@ -322,56 +322,56 @@
       {
         "name": "Костюм \"Ударник\"",
         "slug": "work-clothes-summer-clothes-costume-udarnik",
-        "price": "15.10", 
+        "price": "16.60", 
         "image": "images/work-clothes-summer-clothes-costume-udarnik.png",
         "alt": "work clothes summer clothes costume udarnik"    
       },
       {
         "name": "Костюм \"Стандарт плюс\"",
         "slug": "work-clothes-summer-clothes-costume-standart-plus",
-        "price": "15.20", 
+        "price": "16.70", 
         "image": "images/work-clothes-summer-clothes-costume-standart-plus.png",
         "alt": "work clothes summer clothes costume standart plus"    
       },
       {
         "name": "Халат мужской \"Технолог\"",
         "slug": "work-clothes-summer-clothes-robe-male-tehnolog",
-        "price": "17.40", 
+        "price": "19.20", 
         "image": "images/work-clothes-summer-clothes-robe-male-tehnolog.png",
         "alt": "work clothes summer clothes robe male tehnolog"    
       },
       {
         "name": "Халат женский \"Технолог\"",
         "slug": "work-clothes-summer-clothes-robe-female-tehnolog",
-        "price": "17.40", 
+        "price": "19.20", 
         "image": "images/work-clothes-summer-clothes-robe-female-tehnolog.png",
         "alt": "work clothes summer clothes robe female tehnolog"    
       },
       {
         "name": "Костюм \"Бренд\"",
         "slug": "work-clothes-summer-clothes-costume-brend",
-        "price": "68.40", 
+        "price": "75.30", 
         "image": "images/work-clothes-summer-clothes-costume-brend.png",
         "alt": "work clothes summer clothes costume brend"    
       },
       {
         "name": "Костюм женский \"Бренд\"",
         "slug": "work-clothes-summer-clothes-costume-female-brend",
-        "price": "68.40", 
+        "price": "75.30", 
         "image": "images/work-clothes-summer-clothes-costume-female-brend.png",
         "alt": "work clothes summer clothes costume female brend"    
       },
       {
         "name": "Костюм \"Бренд\"",
         "slug": "work-clothes-summer-clothes-costume-brend1",
-        "price": "69.90", 
+        "price": "76.90", 
         "image": "images/work-clothes-summer-clothes-costume-brend1.png",
         "alt": "work clothes summer clothes costume brend1"    
       },
       {
         "name": "Костюм женский \"Бренд\"",
         "slug": "work-clothes-summer-clothes-costume-female-brend1",
-        "price": "69.90", 
+        "price": "76.90", 
         "image": "images/work-clothes-summer-clothes-costume-female-brend1.png",
         "alt": "work clothes summer clothes costume female brend1"    
       }
@@ -385,28 +385,28 @@
       {
         "name": "Костюм влагозащитный",
         "slug": "work-clothes-waterproof-clothes-costume",
-        "price": "21.60", 
+        "price": "23.80", 
         "image": "images/work-clothes-waterproof-clothes-costume.png",
         "alt": "work clothes waterproof clothes costume"    
       },
       {
         "name": "Плащ влагозащитный",
         "slug": "work-clothes-waterproof-clothes-cloak",
-        "price": "14.30", 
+        "price": "15.70", 
         "image": "images/work-clothes-waterproof-clothes-cloak.png",
         "alt": "work clothes waterproof clothes cloak"    
       },
       {
         "name": "Плащ желтый влагозащитный со светоотражающими полосами",
         "slug": "work-clothes-waterproof-clothes-cloak-yellow",
-        "price": "20.50", 
+        "price": "22.60", 
         "image": "images/work-clothes-waterproof-clothes-cloak-yellow.png",
         "alt": "work clothes waterproof clothes cloak yellow"    
       },
       {
         "name": "Плащ оранжевый влагозащитный со светоотражающими полосами",
         "slug": "work-clothes-waterproof-clothes-cloak-orange",
-        "price": "20.50", 
+        "price": "22.60", 
         "image": "images/work-clothes-waterproof-clothes-cloak-orange.png",
         "alt": "work clothes waterproof clothes cloak orange"    
       }
@@ -420,35 +420,35 @@
       {
         "name": "Костюм КЩС лавсан",
         "slug": "work-clothes-acidproof-clothes-costume",
-        "price": "36.70", 
+        "price": "40.40", 
         "image": "images/work-clothes-acidproof-clothes-costume.png",
         "alt": "work clothes acidproof clothes costume"    
       },
       {
         "name": "Нарукавники КЩС",
         "slug": "work-clothes-acidproof-clothes-sleeve-protectors",
-        "price": "3.80", 
+        "price": "4.20", 
         "image": "images/work-clothes-acidproof-clothes-sleeve-protectors.png",
         "alt": "work clothes acidproof clothes sleeve protectors"    
       },
       {
         "name": "Фартук КЩС",
         "slug": "work-clothes-acidproof-clothes-apron",
-        "price": "6.25", 
+        "price": "6.90", 
         "image": "images/work-clothes-acidproof-clothes-apron.png",
         "alt": "work clothes acidproof clothes apron"    
       },
       {
         "name": "Халат женский КЩС лавсан",
         "slug": "work-clothes-acidproof-clothes-robe-female",
-        "price": "28.65", 
+        "price": "31.50", 
         "image": "images/work-clothes-acidproof-clothes-robe-female.png",
         "alt": "work clothes acidproof clothes robe female"    
       },
       {
         "name": "Халат мужской КЩС лавсан",
         "slug": "work-clothes-acidproof-clothes-robe-male",
-        "price": "28.65", 
+        "price": "31.50", 
         "image": "images/work-clothes-acidproof-clothes-robe-male.png",
         "alt": "work clothes acidproof clothes robe male"    
       }
@@ -462,14 +462,14 @@
       {
         "name": "Костюм сварщика брезентовый",
         "slug": "work-clothes-welder-clothes-costume-tarpaulin",
-        "price": "33.40", 
+        "price": "36.80", 
         "image": "images/work-clothes-welder-clothes-costume-tarpaulin.png",
         "alt": "work clothes welder clothes costume tarpaulin"    
       },
       {
         "name": "Костюм сварщика спилковый",
         "slug": "work-clothes-welder-clothes-costume-split",
-        "price": "77.60", 
+        "price": "85.40", 
         "image": "images/work-clothes-welder-clothes-costume-split.png",
         "alt": "work clothes welder clothes costume split"    
       }
@@ -483,14 +483,14 @@
       {
         "name": "Жилет сигнальный №2",
         "slug": "work-clothes-vests-signal-2",
-        "price": "4.20", 
+        "price": "4.60", 
         "image": "images/work-clothes-vests-signal-2.png",
         "alt": "work clothes vests signal 2"    
       },
       {
         "name": "Жилет сигнальный №4",
         "slug": "work-clothes-vests-signal-4",
-        "price": "6.70", 
+        "price": "7.40", 
         "image": "images/work-clothes-vests-signal-4.png",
         "alt": "work clothes vests signal 4"    
       }
@@ -504,21 +504,21 @@
       {
         "name": "Закрытые защитные очки",
         "slug": "personal-protective-equipment-eye-protection-glasses",
-        "price": "6.70", 
+        "price": "7.40", 
         "image": "images/personal-protective-equipment-eye-protection-glasses.png",
         "alt": "personal protective equipment eye protection glasses"    
       },
       {
         "name": "Открытые защитные очки \"Классик\"",
         "slug": "personal-protective-equipment-eye-protection-glasses-classic",
-        "price": "1.55", 
+        "price": "1.70", 
         "image": "images/personal-protective-equipment-eye-protection-glasses-classic.png",
         "alt": "personal protective equipment eye protection glasses classic"    
       },
       {
         "name": "Открытые защитные очки \"ПРО Комфорт\"",
         "slug": "personal-protective-equipment-eye-protection-glasses-prokomfort",
-        "price": "2.60", 
+        "price": "2.90", 
         "image": "images/personal-protective-equipment-eye-protection-glasses-prokomfort.png",
         "alt": "personal protective equipment eye protection glasses prokomfort"    
       }
@@ -532,28 +532,28 @@
       {
         "name": "Бейсболка",
         "slug": "personal-protective-equipment-head-protection-baseball-cap",
-        "price": "2.70", 
+        "price": "3.00", 
         "image": "images/personal-protective-equipment-head-protection-baseball-cap.png",
         "alt": "personal protective equipment head protection baseball cap"    
       },
       {
         "name": "Каска защитная",
         "slug": "personal-protective-equipment-head-protection-helmet",
-        "price": "2.75", 
+        "price": "3.00", 
         "image": "images/personal-protective-equipment-head-protection-helmet.png",
         "alt": "personal protective equipment head protection helmet"    
       },
       {
         "name": "Подшлемник летний",
         "slug": "personal-protective-equipment-head-protection-balaclava",
-        "price": "3.50", 
+        "price": "3.90", 
         "image": "images/personal-protective-equipment-head-protection-balaclava.png",
         "alt": "personal protective equipment head protection balaclava"    
       },
       {
         "name": "Подшлемник утепленный",
         "slug": "personal-protective-equipment-head-protection-balaclava-insulated",
-        "price": "3.85", 
+        "price": "4.30", 
         "image": "images/personal-protective-equipment-head-protection-balaclava-insulated.png",
         "alt": "personal protective equipment head protection balaclava insulated"    
       }
@@ -567,28 +567,28 @@
       {
         "name": "Изолирующая полумаска \"Исток-400\" с противоаэрозольным фильтром",
         "slug": "personal-protective-equipment-respiratory-protection-half-mask-istok400",
-        "price": "7.90", 
+        "price": "8.70", 
         "image": "images/personal-protective-equipment-respiratory-protection-istok400.png",
         "alt": "personal protective equipment respiratory protection half mask istok400"    
       },
       {
         "name": "Противоаэрозольная полумаска \"Исток-1СК\" FFP1",
         "slug": "personal-protective-equipment-respiratory-protection-half-mask-istok1CK",
-        "price": "2.50", 
+        "price": "2.80", 
         "image": "images/personal-protective-equipment-respiratory-protection-half-mask-istok1CK.png",
         "alt": "personal protective equipment respiratory protection half mask istok1CK"    
       },
       {
         "name": "Противоаэрозольная полумаска У-2К FFP1",
         "slug": "personal-protective-equipment-respiratory-protection-half-mask-Y2K",
-        "price": "2.40", 
+        "price": "2.70", 
         "image": "images/personal-protective-equipment-respiratory-protection-half-mask-Y2K.png",
         "alt": "personal protective equipment respiratory protection half mask Y2K"    
       },
       {
         "name": "Фильтр противогазовый к респиратору \"Исток-400\"",
         "slug": "personal-protective-equipment-respiratory-protection-filter",
-        "price": "3.20", 
+        "price": "3.50", 
         "image": "images/personal-protective-equipment-respiratory-protection-filter.png",
         "alt": "personal protective equipment respiratory protection filter"    
       }
@@ -602,21 +602,21 @@
       {
         "name": "Наушники противошумные \"Исток\"",
         "slug": "personal-protective-equipment-hearing-protection-earphones-istok",
-        "price": "5.80", 
+        "price": "6.40", 
         "image": "images/personal-protective-equipment-hearing-protection-earphones-istok.png",
         "alt": "personal protective equipment hearing protection earphones istok"    
       },
       {
         "name": "Наушники противошумные складные \"Исток\"",
         "slug": "personal-protective-equipment-hearing-protection-earphones-folding-istok",
-        "price": "6.90", 
+        "price": "7.60", 
         "image": "images/personal-protective-equipment-hearing-protection-earphones-folding-istok.png",
         "alt": "personal protective equipment hearing protection earphones folding istok"    
       },
       {
         "name": "Наушники противошумные \"Исток\" с креплением на каску",
         "slug": "personal-protective-equipment-hearing-protection-earphones-with-mount",
-        "price": "6.90", 
+        "price": "7.60", 
         "image": "images/personal-protective-equipment-hearing-protection-earphones-with-mount.png",
         "alt": "personal protective equipment hearing protection earphones with mount"    
       }
@@ -630,14 +630,14 @@
       {
         "name": "Строп А",
         "slug": "personal-protective-equipment-height-work-protection-strop",
-        "price": "14.30", 
+        "price": "15.70", 
         "image": "images/personal-protective-equipment-height-work-protection-strop.png",
         "alt": "personal protective equipment height work protection strop"    
       },
       {
         "name": "Страховочная привязь \"СП-03\"",
         "slug": "personal-protective-equipment-height-work-protection-safety-harness",
-        "price": "37.40", 
+        "price": "41.20", 
         "image": "images/personal-protective-equipment-height-work-protection-safety-harness.png",
         "alt": "personal protective equipment height work protection safety harness"    
       }
@@ -651,70 +651,70 @@
       {
         "name": "Перчатки ХБ с ПВХ покрытием",
         "slug": "personal-protective-equipment-hand-protection-gloves-cotton-pvc",
-        "price": "0.35", 
+        "price": "0.40", 
         "image": "images/personal-protective-equipment-hand-protection-gloves-cotton-pvc.png",
         "alt": "personal protective equipment hand protection gloves cotton with pvc"    
       },
       {
         "name": "Перчатки ХБ с двойным латексным покрытием",
         "slug": "personal-protective-equipment-hand-protection-gloves-cotton-double-latex",
-        "price": "0.70", 
+        "price": "0.80", 
         "image": "images/personal-protective-equipment-hand-protection-gloves-cotton-double-latex.png",
         "alt": "personal protective equipment hand protection gloves cotton with double latex"    
       },
       {
         "name": "Рукавицы брезентовые",
         "slug": "personal-protective-equipment-hand-protection-mittens-tarpaulin",
-        "price": "0.85", 
+        "price": "0.90", 
         "image": "images/personal-protective-equipment-hand-protection-mittens-tarpaulin.png",
         "alt": "personal protective equipment hand protection mittens tarpaulin"    
       },
       {
         "name": "Перчатки нейлоновые с полиуретановым покрытием",
         "slug": "personal-protective-equipment-hand-protection-gloves-nylon-polyurethane",
-        "price": "1.00", 
+        "price": "1.10", 
         "image": "images/personal-protective-equipment-hand-protection-gloves-nylon-polyurethane.png",
         "alt": "personal protective equipment hand protection gloves nylon with polyurethane"    
       },
       {
         "name": "Рукавицы ХБ с двойным наладонником",
         "slug": "personal-protective-equipment-hand-protection-mittens-cotton",
-        "price": "1.20", 
+        "price": "1.30", 
         "image": "images/personal-protective-equipment-hand-protection-mittens-cotton.png",
         "alt": "personal protective equipment hand protection mittens cotton"    
       },
       {
         "name": "Перчатки нейлоновые с нитриловым покрытием",
         "slug": "personal-protective-equipment-hand-protection-gloves-nylon-nitrile",
-        "price": "1.20", 
+        "price": "1.30", 
         "image": "images/personal-protective-equipment-hand-protection-gloves-nylon-nitrile.png",
         "alt": "personal protective equipment hand protection gloves nylon with nitrile"    
       },
       {
         "name": "Перчатки ХБ с латексным покрытием",
         "slug": "personal-protective-equipment-hand-protection-gloves-cotton-latex",
-        "price": "1.40", 
+        "price": "1.60", 
         "image": "images/personal-protective-equipment-hand-protection-gloves-cotton-latex.png",
         "alt": "personal protective equipment hand protection gloves cotton with latex"    
       },
       {
         "name": "Перчатки КЩС",
         "slug": "personal-protective-equipment-hand-protection-gloves-acid-resistant",
-        "price": "1.60", 
+        "price": "1.80", 
         "image": "images/personal-protective-equipment-hand-protection-gloves-acid-resistant.png",
         "alt": "personal protective equipment hand protection gloves acid resistant"    
       },
       {
         "name": "Перчатки нитриловые, манжет – резинка",
         "slug": "personal-protective-equipment-hand-protection-gloves-nitrile",
-        "price": "2.10", 
+        "price": "2.30", 
         "image": "images/personal-protective-equipment-hand-protection-gloves-nitrile.png",
         "alt": "personal protective equipment hand protection gloves nitrile"    
       },
       {
         "name": "Краги",
         "slug": "personal-protective-equipment-hand-protection-leathers",
-        "price": "5.80", 
+        "price": "6.40", 
         "image": "images/personal-protective-equipment-hand-protection-leathers.png",
         "alt": "personal protective equipment hand protection leathers"    
       }
@@ -728,14 +728,14 @@
       {
         "name": "Щиток защитный лицевой",
         "slug": "medical-protection-shields-facial",
-        "price": "6.00", 
+        "price": "6.60", 
         "image": "images/medical-protection-shields-facial.png",
         "alt": "medical protection shields facial"    
       },
       {
         "name": "Щиток защитный лицевой с подъемным экраном",
         "slug": "medical-protection-shields-facial-lifting-screen",
-        "price": "8.20", 
+        "price": "9.00", 
         "image": "images/medical-protection-shields-facial-lifting-screen.png",
         "alt": "medical protection shields facial with lifting screen"    
       }
@@ -749,7 +749,7 @@
       {
         "name": "Бахилы прочные 3гр*30мкр",
         "slug": "medical-protection-shoe-covers-product",
-        "price": "4.00", 
+        "price": "4.40", 
         "image": "images/medical-protection-shoe-covers-product.png",
         "alt": "medical protection shoe covers"    
       }
@@ -763,14 +763,14 @@
       {
         "name": "Полумаска противоаэрозольная \"ИСТОК-1СК\" FFP1",
         "slug": "medical-protection-mask-istokFFP",
-        "price": "2.50", 
+        "price": "2.80", 
         "image": "images/medical-protection-mask-istokFFP.png",
         "alt": "medical protection mask istokFFP"    
       },
       {
         "name": "Противоаэрозольная полумаска У-2К FFP1",
         "slug": "medical-protection-mask-Y2K",
-        "price": "2.40", 
+        "price": "2.70", 
         "image": "images/medical-protection-mask-Y2K.png",
         "alt": "medical protection mask Y2K"    
       }
