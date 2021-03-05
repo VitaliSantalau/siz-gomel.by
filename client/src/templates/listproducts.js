@@ -40,11 +40,7 @@ const Listproducts = ({ data }) => {
         </div>
         <div className={style.containerProductCardNamePrice}>
           <h2 className={style.productCardName}>{item.name}</h2>
-          <div className={style.containerPriceDetails}>
-            <div className={style.containerPriceNds}>
-              <div className={style.productCardPrice}>{item.price}</div>
-              <div className={style.nds}>(без НДС)</div>
-            </div>            
+          <div className={style.containerPriceDetails}>          
             <div className={style.details}>подробнее</div>
           </div>
         </div>

@@ -69,10 +69,6 @@ const Product = ({ data }) => {
           <div className={style.descriptionProduct}>
             <h2 className={style.groupName}>{product.name}</h2>
             <div dangerouslySetInnerHTML={{ __html: product.description }} className={style.text}/>
-            <div className={style.priceNds}>
-              <div className={style.price}>{product.price}</div>
-              <div className={style.nds}>(без НДС)</div>
-            </div>
           </div>
         </div>
         </section>
