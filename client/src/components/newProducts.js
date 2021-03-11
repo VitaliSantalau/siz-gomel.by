@@ -41,7 +41,11 @@ export default function NewProducts() {
         </div>
         <div className={style.containerProductCardNamePrice}>
           <p className={style.productCardName}>{item.name}</p>
-          <div className={style.containerPriceDetails}>           
+          <div className={style.containerPriceDetails}>
+            <div className={style.containerPriceNds}>
+              <div className={style.productCardPrice}>{item.price}</div>
+              <div className={style.nds}>(без НДС)</div>
+            </div>            
             <div className={style.details}>подробнее</div>
           </div>
         </div>
