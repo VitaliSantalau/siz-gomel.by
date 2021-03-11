@@ -8,6 +8,11 @@ import style from "../css/catalogMobile.module.css"
 import MainLayout from "../components/mainLayout"
 import SEO from "../components/seo"
 
+/*
+  <h2 className={style.wordCATALOG}>
+    <Link to="/info/">ИНФОРМАЦИЯ</Link>
+  </h2>
+ */
 
 export default function CatalogMobile() {
   const data = useStaticQuery(graphql`
@@ -117,9 +122,6 @@ export default function CatalogMobile() {
           <Link to="/medical-protection-masks/" className={style.subgroup} activeClassName={style.activeSubGroup}>Маски</Link>
         </div>
       </div>
-          <h2 className={style.wordCATALOG}>
-            <Link to="/info/">ИНФОРМАЦИЯ</Link>
-          </h2>
         </nav>
       </main>
     </MainLayout>

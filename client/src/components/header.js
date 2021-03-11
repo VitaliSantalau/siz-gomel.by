@@ -42,8 +42,8 @@ export default function Header() {
             <div className={style.address}>
               246050, г.Гомель, ул.Гагарина, 57/8, к.6
             </div>
-            <a href="mailto:globo_bel@mail.ru" className={style.emailAddress}>
-              globo_bel@mail.ru
+            <a href="mailto:gomel-siz@mail.ru" className={style.emailAddress}>
+              gomel-siz@mail.ru
             </a>
           </div>
           <div className={style.timeTable}>
